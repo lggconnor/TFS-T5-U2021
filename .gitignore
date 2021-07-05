@@ -1,0 +1,55 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild[s]
+[Ll]ibrary/
+sysinfo.txt
+[Tt]emp.meta
+ProjectSettings/ProjectVersion.txt
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+.sln
+.userprefs
+*.userprefs
+
+# ============ #
+# Custom       #
+# ============ #
+*.csproj
+*.sln
+*.unityproj
+*.csproj
+Unity/Assets/Editor/Prime31/P31PostProcessor.pyc
+Unity/Assets/Editor/Prime31/P31PostProcessor.pyc.meta
+.vs/
+
+#Steamworks
+steamworks_sdk_141/sdk/tools/ContentBuilder/content
+steamworks_sdk_141/sdk/tools/ContentBuilder/output
+MLB Derby/ProjectSettings/EditorBuildSettings.asset
+MLB Derby/SRWorks.log
+MLB Derby/ViveSR_NAPI.log
+MLB Derby/ViveSR_Client.log
+MLB Derby/SerializedBuildInfo

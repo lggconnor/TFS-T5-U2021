@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Infestation_Shader_V1
+  m_Shader: {fileID: -6465566751694194690, guid: 8e7a39213c992dd42946b6c056196800, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Boolean_CD77B548: 1
+    - EmissionPower: 0.5
+    - ScrollSpeed: 0.1
+    - Vector1_267D9366: 1
+    - Vector1_4913A034: 0.2
+    - Vector1_70883463: 0
+    - Vector1_B430EAC9: 2.5
+    - Vector1_B720AD9E: 0.01
+    - Vector1_C16803AD: 5
+    - Vector1_C3777A6: 14
+    - Vector1_D9219A9: 18.04
+    - Vector1_E6C279E1: 1
+    - Vector1_FADD8101: 0.1
+    m_Colors:
+    - Color_9AA589D5: {r: 0.007843138, g: 0.0019607844, b: 0.005882353, a: 1}
+    - Color_B28CE77B: {r: 1.6, g: 0.26813683, b: 0.11727743, a: 1}
+    - Vector3_820801D3: {r: -1.783, g: 0, b: 0.639, a: 0}
+    - VertexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionOrigin: {r: 6.188, g: 2.516, b: 1.116, a: 0}
+    - functional_rename_9AA589D5: {r: 4, g: 1.898039, b: 1.898039, a: 0.8666667}
+  m_BuildTextureStacks: []

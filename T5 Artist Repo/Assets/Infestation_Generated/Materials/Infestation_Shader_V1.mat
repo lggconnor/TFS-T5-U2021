@@ -38,6 +38,6 @@ Material:
     - Color_B28CE77B: {r: 1.6, g: 0.26813683, b: 0.11727743, a: 1}
     - Vector3_820801D3: {r: -1.783, g: 0, b: 0.639, a: 0}
     - VertexOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionOrigin: {r: 7.412, g: 0.169, b: -2.279, a: 0}
+    - _EmissionOrigin: {r: -80, g: 0.169, b: 75, a: 0}
     - functional_rename_9AA589D5: {r: 4, g: 1.898039, b: 1.898039, a: 0.8666667}
   m_BuildTextureStacks: []

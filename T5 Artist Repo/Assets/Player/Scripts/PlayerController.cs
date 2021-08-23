@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance { get; set; } = null;
 
     public HealthManager playerHealth;
+    public GameObject shootVfx;
+    public bool isShooting;
 
     // a class containing all of the movement variables. Could be a struct, but structs don't support default values
     [System.Serializable]
@@ -220,7 +222,9 @@ public class PlayerController : MonoBehaviour
             // make a normalized vector (probably unnecessary) from the player's position to the mouse position
             lookVector = new Vector3(mouseVector.x, 0, (mouseVector.y / (Mathf.Cos(Camera.main.transform.eulerAngles.y)))).normalized;
         }
-
+        
+        
+               
         // if the camera is perspective, calculate the mouse position by projecting a ray onto a XZ plane at a specified y
         else
         {
@@ -297,7 +301,18 @@ public class PlayerController : MonoBehaviour
                 // moveDirection.y += moveVars.gravity * Time.deltaTime;
                 break;
         }
-
+        if (Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            shootVfx.SetActive(true);
+        }
+        else if (Mouse.current.leftButton.wasReleasedThisFrame)
+        {
+            shootVfx.SetActive(false);
+        }
+     
+            
+        
+        
         // _rb.AddForce(moveDirection * Time.deltaTime, ForceMode.VelocityChange);
 
 
@@ -478,9 +493,12 @@ public class PlayerController : MonoBehaviour
         // call shoot function from Thrower script
         
         thrower.isThrowing = input.isPressed;
-       
-            
+    
+        isShooting = true;
+        
+
     }
+
 
 
 

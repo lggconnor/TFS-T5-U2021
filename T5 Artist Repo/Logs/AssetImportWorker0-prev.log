@@ -158,3 +158,4 @@ Received Import Request.
 Start importing Assets/Level Design/Artist_Level.unity using Guid(824a5dd074fda6e40a08efa35716028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f8986d599ee6f0fb45856d71497b7') in 0.002537 seconds 
   Import took 0.009822 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

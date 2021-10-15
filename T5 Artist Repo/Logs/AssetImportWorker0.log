@@ -1519,3 +1519,4 @@ Received Import Request.
 Start importing Assets/Enemies/Eggs/BustedEgg_Material/BustedEgg_Material.mat using Guid(15cfc0be2fb69a9489189fa253b17ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d82bc07d2ad60f6b925b226de7e2ebb') in 0.038369 seconds 
   Import took 0.047988 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

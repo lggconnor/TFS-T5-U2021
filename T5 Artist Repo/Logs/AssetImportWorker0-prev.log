@@ -15,11 +15,11 @@ C:/Users/Vanessa/Documents/GitHub/TFS-T5-U2021/T5 Artist Repo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65293
+57612
 Successfully changed project path to: C:/Users/Vanessa/Documents/GitHub/TFS-T5-U2021/T5 Artist Repo
 C:/Users/Vanessa/Documents/GitHub/TFS-T5-U2021/T5 Artist Repo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 123.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,48 +35,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002730 seconds.
+Registered in 0.003441 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 108.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.603 seconds
+- Completed reload, in  1.720 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1603ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (1720ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (294ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (108ms)
 				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013113 seconds.
+Registered in 0.013799 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 111.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 FileNotFoundException: Could not load file or assembly 'Substance.EditorHelper, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
@@ -86,45 +86,45 @@ FileNotFoundException: Could not load file or assembly 'Substance.EditorHelper, 
   at (wrapper delegate-invoke) <Module>.invoke_void()
   at UnityEditor.AssemblyReloadEvents.OnAfterAssemblyReload () [0x0000d] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
 
-- Completed reload, in  2.742 seconds
+- Completed reload, in  2.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2743ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (2682ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (2450ms)
-			LoadAssemblies (148ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2354ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (568ms)
+			SetupTypeCache (559ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (1402ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (1333ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (1101ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (1050ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4505 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 197.8 MB.
 System memory in use after: 198.0 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4944.
-Total: 6.990500 ms (FindLiveObjects: 0.675600 ms CreateObjectMapping: 0.175700 ms MarkObjects: 5.990100 ms  DeleteObjects: 0.147200 ms)
+Total: 6.897300 ms (FindLiveObjects: 0.669700 ms CreateObjectMapping: 0.154000 ms MarkObjects: 5.907000 ms  DeleteObjects: 0.165000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,257 +138,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Enemies/Eggs/SmallEgg_low.fbx
-  artifactKey: Guid(da83d5ae9fa50b3439b6742d8b568e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_low.fbx using Guid(da83d5ae9fa50b3439b6742d8b568e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba15f3aa53937aeaf587243e8b813683') in 1.163351 seconds 
-  Import took 1.173160 seconds .
+  path: Assets/Enemies/Eggs/LargeEgg_material/Larva.mat
+  artifactKey: Guid(2e992fcbc2cca044b888c5e7ed80eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/LargeEgg_material/Larva.mat using Guid(2e992fcbc2cca044b888c5e7ed80eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74484e85c5e7bb09d0916d288c55d3dc') in 0.375573 seconds 
+  Import took 0.384346 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.965356 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures
-  artifactKey: Guid(f79767fed661ced40a675c4243295188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures using Guid(f79767fed661ced40a675c4243295188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b817e61bf2d8d3ffbb774a6a759489d') in 0.009334 seconds 
-  Import took 0.017437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.627613 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Albedo.tga
-  artifactKey: Guid(ed2e12c394c94cd4d9a932af36b3f561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Albedo.tga using Guid(ed2e12c394c94cd4d9a932af36b3f561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6089f1253c62ac703326d1f8ab41000') in 0.064370 seconds 
-  Import took 0.072426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Opacity.tga
-  artifactKey: Guid(9ec993c7e9abca44f853d5c059ddf9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Opacity.tga using Guid(9ec993c7e9abca44f853d5c059ddf9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648fced8da11f44f6dfd5b542d2cf0bf') in 0.018891 seconds 
-  Import took 0.026000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_AO.tga
-  artifactKey: Guid(6b3c860b50cfd564a9cf3924f11cccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_AO.tga using Guid(6b3c860b50cfd564a9cf3924f11cccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e9b68bb9b0aa0a2bfcfd94d34f4c4b') in 0.019199 seconds 
-  Import took 0.026412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Emissive.tga
-  artifactKey: Guid(ffae7fa1a98a2c34d9ea191488a36e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Emissive.tga using Guid(ffae7fa1a98a2c34d9ea191488a36e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c226196c6e1907c23cdcaf6d32060e') in 0.019822 seconds 
-  Import took 0.026587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Height.tga
-  artifactKey: Guid(fa76907330faa6b4a94cabb951bf63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Height.tga using Guid(fa76907330faa6b4a94cabb951bf63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301f68c554a3dd1042353d7ba4b25d91') in 0.020259 seconds 
-  Import took 0.028123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Metallic.tga
-  artifactKey: Guid(e3d292550b6a152419e2973d417d0d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Metallic.tga using Guid(e3d292550b6a152419e2973d417d0d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378b82d576dc0465ffbef90abff56efb') in 0.021674 seconds 
-  Import took 0.031742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga
-  artifactKey: Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga using Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e744ae30c4ab95cb52a3b0a3aaf7c55') in 0.021217 seconds 
-  Import took 0.029275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.979409 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_Material.mat
-  artifactKey: Guid(f27998f14a89eba4daaade240ef68a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_Material.mat using Guid(f27998f14a89eba4daaade240ef68a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891807cb730ea15ac3d69ff138fc15bc') in 0.030595 seconds 
-  Import took 0.037701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.268779 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga
-  artifactKey: Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga using Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653da873f57d411618954e413fc634c2') in 0.027726 seconds 
-  Import took 0.036623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 471.419544 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Albedo.tga
-  artifactKey: Guid(ed2e12c394c94cd4d9a932af36b3f561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Albedo.tga using Guid(ed2e12c394c94cd4d9a932af36b3f561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2742b19da3e53f74a11f1bba906f4e0d') in 0.028287 seconds 
-  Import took 0.037506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Opacity.tga
-  artifactKey: Guid(9ec993c7e9abca44f853d5c059ddf9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Opacity.tga using Guid(9ec993c7e9abca44f853d5c059ddf9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aa9ba437e621213f997e230f594464') in 0.023852 seconds 
-  Import took 0.033522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Emissive.tga
-  artifactKey: Guid(ffae7fa1a98a2c34d9ea191488a36e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Emissive.tga using Guid(ffae7fa1a98a2c34d9ea191488a36e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ead394007fdaccd550c4992bdc7c45f') in 0.023951 seconds 
-  Import took 0.035707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Height.tga
-  artifactKey: Guid(fa76907330faa6b4a94cabb951bf63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Height.tga using Guid(fa76907330faa6b4a94cabb951bf63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e781cef4f819843bffe39e5fbe3f4fd') in 0.017487 seconds 
-  Import took 0.025919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Metallic.tga
-  artifactKey: Guid(e3d292550b6a152419e2973d417d0d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Metallic.tga using Guid(e3d292550b6a152419e2973d417d0d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4779e8b25a3770a1b442d6a9fdc25c1f') in 0.025006 seconds 
-  Import took 0.033828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga
-  artifactKey: Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga using Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d7c2b0fd2197976ed16096dec8fe43') in 0.020774 seconds 
-  Import took 0.031026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.106658 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga
-  artifactKey: Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/SmallEgg_low_SmallEgg_low_Normal.tga using Guid(e111dd0a166f9de4482a323738635f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a9c49894f19f5df72318001d6c18f1') in 0.026915 seconds 
-  Import took 0.036672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.081645 seconds.
-  path: Assets/Props/TileableTextures/TreadPlate/TreadPlate_ambientocclusion.tga
-  artifactKey: Guid(b87fd5b255d4b734ba210e708b789458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/TileableTextures/TreadPlate/TreadPlate_ambientocclusion.tga using Guid(b87fd5b255d4b734ba210e708b789458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8834ccd0287adb49170f990b5ec637f') in 0.063553 seconds 
-  Import took 0.074459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/LB3D/CrabMonster/Scenes/watermark.psd
-  artifactKey: Guid(62fd8a7c90e6f7f43b3224bc2f625834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LB3D/CrabMonster/Scenes/watermark.psd using Guid(62fd8a7c90e6f7f43b3224bc2f625834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683f20acc42cae84091343eee7b86faf') in 0.086015 seconds 
-  Import took 0.097497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/TutorialInfo/Icons/UniversalIcon.png
-  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae570e3713b36f64e3f8d9021a84a20') in 0.054887 seconds 
-  Import took 0.068844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/LB3D/CrabMonster/Scenes/watermark.png
-  artifactKey: Guid(98bf67f4492231246b75935695a7520f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LB3D/CrabMonster/Scenes/watermark.png using Guid(98bf67f4492231246b75935695a7520f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4e4b04504b800f500b10b47a9cf836') in 0.033392 seconds 
-  Import took 0.044759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Props/TileableTextures/TreadPlate/TreadPlate_height.tga
-  artifactKey: Guid(99e069827005aca4ca68d25ba76d2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/TileableTextures/TreadPlate/TreadPlate_height.tga using Guid(99e069827005aca4ca68d25ba76d2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ce5dc30acd0e51e6ef9fabbb827923') in 0.048388 seconds 
-  Import took 0.057395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Props/TileableTextures/TreadPlate/TreadPlate_normal.tga
-  artifactKey: Guid(6e291e68f33a69b49a7d10fa0beafdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/TileableTextures/TreadPlate/TreadPlate_normal.tga using Guid(6e291e68f33a69b49a7d10fa0beafdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8101a48ad1fe13c65f6a63229d2254a3') in 0.087636 seconds 
-  Import took 0.100131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Textures/UVCheck.png
-  artifactKey: Guid(05eb7453c8bf021488f659b64bfee7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UVCheck.png using Guid(05eb7453c8bf021488f659b64bfee7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42c5d555bf6c3592c0742c1528492c6') in 0.031154 seconds 
-  Import took 0.040023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Props/TileableTextures/TreadPlate/TreadPlate_metallic.tga
-  artifactKey: Guid(2febb7acaf4661848b823ea35b9b20f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/TileableTextures/TreadPlate/TreadPlate_metallic.tga using Guid(2febb7acaf4661848b823ea35b9b20f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ecbc74014839c826c833e0b580b139') in 0.049199 seconds 
-  Import took 0.058294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Props/VendingMachine_PH/UV-TemplateVM.png
-  artifactKey: Guid(43acda20beacb094fa76a6e239877d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/VendingMachine_PH/UV-TemplateVM.png using Guid(43acda20beacb094fa76a6e239877d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97e43a0aaa2428262869b2040067150') in 0.024078 seconds 
-  Import took 0.034313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Props/TileableTextures/TreadPlate/TreadPlate_basecolor.tga
-  artifactKey: Guid(c78175a7ed047204888bbd6b9234e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/TileableTextures/TreadPlate/TreadPlate_basecolor.tga using Guid(c78175a7ed047204888bbd6b9234e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9b6c3061e1de6d898a67404ce265f0') in 0.056639 seconds 
-  Import took 0.066156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Props/TileableTextures/TreadPlate/TreadPlate_roughness.tga
-  artifactKey: Guid(5b9bf4509023c1143bc1da224e6ea02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/TileableTextures/TreadPlate/TreadPlate_roughness.tga using Guid(5b9bf4509023c1143bc1da224e6ea02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcd8abfb9d1e85f68f617f3aa188cbe') in 0.056137 seconds 
-  Import took 0.064693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.070752 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/New Material.mat
-  artifactKey: Guid(66875642c78a7684d85f2ebb417e1d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/New Material.mat using Guid(66875642c78a7684d85f2ebb417e1d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e6464e4db0aa13f59e0fa55d44b0db') in 0.018853 seconds 
-  Import took 0.027225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.685771 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_low.fbx
-  artifactKey: Guid(da83d5ae9fa50b3439b6742d8b568e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_low.fbx using Guid(da83d5ae9fa50b3439b6742d8b568e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48caf8c778cbfae3039a0c966f9c1677') in 0.034146 seconds 
-  Import took 0.045415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14669.713818 seconds.
-  path: Assets/Enemies/Eggs/SmallEgg_textures/New Material.mat
-  artifactKey: Guid(66875642c78a7684d85f2ebb417e1d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Eggs/SmallEgg_textures/New Material.mat using Guid(66875642c78a7684d85f2ebb417e1d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa8859c0fb8b35240437773cca66115') in 0.182783 seconds 
-  Import took 0.245963 seconds .
+  Time since last request: 3311.218339 seconds.
+  path: Assets/Enemies/Eggs/LargeEgg_material/BaseEgg.mat
+  artifactKey: Guid(a229d9f8870fbcd49a40738e0f75b0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/LargeEgg_material/BaseEgg.mat using Guid(a229d9f8870fbcd49a40738e0f75b0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b89f345359beb36aabfc666ce25f1d') in 0.069890 seconds 
+  Import took 0.089795 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

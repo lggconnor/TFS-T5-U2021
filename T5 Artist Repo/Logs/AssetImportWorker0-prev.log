@@ -15,11 +15,11 @@ C:/Users/Vanessa/Documents/GitHub/TFS-T5-U2021/T5 Artist Repo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55271
+49370
 Successfully changed project path to: C:/Users/Vanessa/Documents/GitHub/TFS-T5-U2021/T5 Artist Repo
 C:/Users/Vanessa/Documents/GitHub/TFS-T5-U2021/T5 Artist Repo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,48 +35,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003006 seconds.
+Registered in 0.002918 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 113.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.672 seconds
+- Completed reload, in  1.458 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1672ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017441 seconds.
+Registered in 0.014329 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 144.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 120.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 FileNotFoundException: Could not load file or assembly 'Substance.EditorHelper, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
@@ -86,45 +86,45 @@ FileNotFoundException: Could not load file or assembly 'Substance.EditorHelper, 
   at (wrapper delegate-invoke) <Module>.invoke_void()
   at UnityEditor.AssemblyReloadEvents.OnAfterAssemblyReload () [0x0000d] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
 
-- Completed reload, in  3.010 seconds
+- Completed reload, in  2.967 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3011ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (2968ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (2663ms)
-			LoadAssemblies (180ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2645ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (648ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (134ms)
-			SetupLoadedEditorAssemblies (1496ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (1523ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (145ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (1148ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1217ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4505 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 197.8 MB.
 System memory in use after: 198.0 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4944.
-Total: 4.904200 ms (FindLiveObjects: 0.582000 ms CreateObjectMapping: 0.151300 ms MarkObjects: 4.039700 ms  DeleteObjects: 0.129400 ms)
+Total: 5.156200 ms (FindLiveObjects: 0.578800 ms CreateObjectMapping: 0.153300 ms MarkObjects: 4.281200 ms  DeleteObjects: 0.141300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,97 +138,2217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Enemies/Queen/Queen_mesh/Queen_Scaled_typo_3ds_low_4m.fbx
-  artifactKey: Guid(b33b3b759abd0334397f740eb052b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Queen/Queen_mesh/Queen_Scaled_typo_3ds_low_4m.fbx using Guid(b33b3b759abd0334397f740eb052b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ac147a94548e08dd5f3b0069cd33d3') in 0.344071 seconds 
-  Import took 0.352251 seconds .
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low 1.fbx
+  artifactKey: Guid(0b2046aace4c87347b8ccf06044db1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low 1.fbx using Guid(0b2046aace4c87347b8ccf06044db1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978621692d223a1adba3a7fa935653b1') in 0.420945 seconds 
+  Import took 0.428385 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.480250 seconds.
-  path: Assets/Enemies/Queen/Queen_mesh/Queen_unity_low.fbx
-  artifactKey: Guid(76770009154cb6542ad79e7a08723fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Queen/Queen_mesh/Queen_unity_low.fbx using Guid(76770009154cb6542ad79e7a08723fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868fc9e66f73be5e1d31b7f190f8e5c1') in 0.048190 seconds 
-  Import took 0.056348 seconds .
+  Time since last request: 179.057653 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_testlow.fbx
+  artifactKey: Guid(b83940c646b2b5c4a9bffb8e7b733f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_testlow.fbx using Guid(b83940c646b2b5c4a9bffb8e7b733f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b2077793a9ed8f6f9a03de8325b794') in 0.040748 seconds 
+  Import took 0.049268 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.932007 seconds.
-  path: Assets/Enemies/Queen/Queen_mesh/Queen_Materials/Queen_material.mat
-  artifactKey: Guid(bcc9a277b1e68ca469f912fe291cada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Queen/Queen_mesh/Queen_Materials/Queen_material.mat using Guid(bcc9a277b1e68ca469f912fe291cada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46eea7463c75c16cd447e661f76b28f') in 0.070495 seconds 
-  Import took 0.080368 seconds .
+  Time since last request: 135.771154 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Data/IEditorMesh.cs
+  artifactKey: Guid(8e5fc5b3577afe54c8c122fbde9c865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Data/IEditorMesh.cs using Guid(8e5fc5b3577afe54c8c122fbde9c865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad165ea4f79577dd7e5cd4f1b45f0b') in 0.017837 seconds 
+  Import took 0.026035 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.516824 seconds.
+  Time since last request: 0.067685 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/CustomEditor/BezierParam.cs
+  artifactKey: Guid(b29255f6d4beb4f45870636231e35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/CustomEditor/BezierParam.cs using Guid(b29255f6d4beb4f45870636231e35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b437556fe65472ff02ab319965f90f2') in 0.007700 seconds 
+  Import took 0.015544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006699 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/ReferenceDataIndex/ReferenceDataIndex.cs
+  artifactKey: Guid(0f837461ca2db4f48a80321eace20ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/ReferenceDataIndex/ReferenceDataIndex.cs using Guid(0f837461ca2db4f48a80321eace20ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248b75b81adcb62d494d889a0fef93f7') in 0.007856 seconds 
+  Import took 0.015657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009378 seconds.
+  path: Assets/UI/Scripts/CraftingChangeScenes.cs
+  artifactKey: Guid(80ce3469cfee0354fa8f86c40be285dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/CraftingChangeScenes.cs using Guid(80ce3469cfee0354fa8f86c40be285dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b91e3869143ba55a6143d557679f2') in 0.007837 seconds 
+  Import took 0.016186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046701 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Height.tga
+  artifactKey: Guid(3578fc5e32ebaa24b8bf83727d30f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Height.tga using Guid(3578fc5e32ebaa24b8bf83727d30f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97425131d2f1b97f077a5d280f9d68be') in 0.074124 seconds 
+  Import took 0.082278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009828 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshSpringGizmoDrawer.cs
+  artifactKey: Guid(d70c3e0a92e7a5e4499af4a0943be0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshSpringGizmoDrawer.cs using Guid(d70c3e0a92e7a5e4499af4a0943be0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df670ec7f0401f4d16a25259fd4e366a') in 0.011509 seconds 
+  Import took 0.019531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007295 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-avatar-parts.png
+  artifactKey: Guid(2437a727afbd8fb43b4b814b6a7e728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-avatar-parts.png using Guid(2437a727afbd8fb43b4b814b6a7e728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a0510cec2cdd25b1d930beb6efb978') in 0.088248 seconds 
+  Import took 0.095704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007326 seconds.
+  path: Assets/Enemies/Eggs/Yolk_textures
+  artifactKey: Guid(97a562bb584791742836a66b42bf513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/Yolk_textures using Guid(97a562bb584791742836a66b42bf513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6e28654dd09bf3103bb2c240571a48') in 0.007598 seconds 
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007517 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/MagicaMeshSpring.cs
+  artifactKey: Guid(4c1fa84d332381e4cb60577b565a4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/MagicaMeshSpring.cs using Guid(4c1fa84d332381e4cb60577b565a4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185bfaf02fc9e50ca9e56b6043342d3a') in 0.008768 seconds 
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014055 seconds.
+  path: Assets/UI/Scripts/PauseMenu.cs
+  artifactKey: Guid(ea64432f41c215e4da56544451e2c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/PauseMenu.cs using Guid(ea64432f41c215e4da56544451e2c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644601dab15529251898bff8a8a8894b') in 0.007456 seconds 
+  Import took 0.014314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009280 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Utility/EditorInspectorUtility.cs
+  artifactKey: Guid(cea26462dbdd68f42981d49faf25d5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Utility/EditorInspectorUtility.cs using Guid(cea26462dbdd68f42981d49faf25d5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6581ff692de3a48f07c3391c189d9a9') in 0.007521 seconds 
+  Import took 0.015099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020395 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampDistance2Constraint.cs
+  artifactKey: Guid(79b7e062c12873f41ac613fe3ed514e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampDistance2Constraint.cs using Guid(79b7e062c12873f41ac613fe3ed514e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416e9706be6e8c81292adc6f772327a4') in 0.007779 seconds 
+  Import took 0.014844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007419 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-render-deformer.png
+  artifactKey: Guid(d6743aab8f95d174abe2b6a97f33d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-render-deformer.png using Guid(d6743aab8f95d174abe2b6a97f33d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdea6c6538df7396a7244dba1ca0d12') in 0.016896 seconds 
+  Import took 0.023339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020197 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Avatar/MagicaAvatarPartsInspector.cs
+  artifactKey: Guid(a04b88415140a5c45876eaa58b5b11d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Avatar/MagicaAvatarPartsInspector.cs using Guid(a04b88415140a5c45876eaa58b5b11d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfaeb34467e7367ad4f4c00824ff4cf') in 0.006853 seconds 
+  Import took 0.013563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006669 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/EditorExtension/ClothMonitorAccess.cs
+  artifactKey: Guid(ce051de311ab0834899eddc7bf9e86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/EditorExtension/ClothMonitorAccess.cs using Guid(ce051de311ab0834899eddc7bf9e86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9cd0e274a0c04de0a45e64aa0fda6e') in 0.007198 seconds 
+  Import took 0.014543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049490 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/ShareData/IDataHash.cs
+  artifactKey: Guid(5bed3111fca3c724d9331ef73ec6ae8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/ShareData/IDataHash.cs using Guid(5bed3111fca3c724d9331ef73ec6ae8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2ee154bcbe57904246d339bea3a11c') in 0.007492 seconds 
+  Import took 0.015617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056908 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerComponent.cs
+  artifactKey: Guid(9d641073ff710cc469fd7929f2557050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerComponent.cs using Guid(9d641073ff710cc469fd7929f2557050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfee4fba7f0a3a162705597c84fccfc5') in 0.007403 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006410 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/AutoMove.cs
+  artifactKey: Guid(d0d3b6355b02b774686a527d7e47b86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/AutoMove.cs using Guid(d0d3b6355b02b774686a527d7e47b86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba0b191079420650d95ac7649110212') in 0.008038 seconds 
+  Import took 0.016053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006726 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Define/MeshDefine.cs
+  artifactKey: Guid(013f43db169e37d47bf545fc821502db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Define/MeshDefine.cs using Guid(013f43db169e37d47bf545fc821502db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dbe6cdf4f25a2622816faaa5dc0e9b') in 0.008119 seconds 
+  Import took 0.015597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116918 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Normal.tga
+  artifactKey: Guid(d05a4855f7c42c145a4265a9cb6b2a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Normal.tga using Guid(d05a4855f7c42c145a4265a9cb6b2a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f69b73e68ca7448f4991ad304898812') in 0.053317 seconds 
+  Import took 0.061653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005429 seconds.
+  path: Assets/Enemies/Buster/Textures
+  artifactKey: Guid(8e4429b0f4f3975428dc5df34b5911af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Buster/Textures using Guid(8e4429b0f4f3975428dc5df34b5911af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a54fdbf4c0e53bf6da420e2f44c0195') in 0.007181 seconds 
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007338 seconds.
+  path: Assets/Managers/Saving/XMLEncryptedSaveManager.cs
+  artifactKey: Guid(58f7d6083b018494795012afd55d823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Saving/XMLEncryptedSaveManager.cs using Guid(58f7d6083b018494795012afd55d823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b17bb3f82ef8ec689308a70abfb28d4') in 0.007453 seconds 
+  Import took 0.014594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049769 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/MagicaBoneCloth.cs
+  artifactKey: Guid(8b926eb37fed1d748b80e3b4756bc569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/MagicaBoneCloth.cs using Guid(8b926eb37fed1d748b80e3b4756bc569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759940b98a951a7b822a5fed1f7a513') in 0.007827 seconds 
+  Import took 0.014855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006874 seconds.
+  path: Assets/Enemies/Grunt/Scripts/Enemy.cs
+  artifactKey: Guid(497a9bb5f9ab3c14fbe8a8b5403e61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Scripts/Enemy.cs using Guid(497a9bb5f9ab3c14fbe8a8b5403e61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033fc50f52ed0ebe90e2f582bfb8c318') in 0.008141 seconds 
+  Import took 0.015256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005902 seconds.
+  path: Assets/Enemies/Buster
+  artifactKey: Guid(ae32a234800d0a14ba951b24320d77d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Buster using Guid(ae32a234800d0a14ba951b24320d77d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df1f102bd9a6ffcff9f99337742b8e') in 0.006928 seconds 
+  Import took 0.013731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006851 seconds.
+  path: Assets/LB3D/CrabMonster/LB3DGameManager.cs
+  artifactKey: Guid(c098563f85d5ba144b65f5e8490bdf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/CrabMonster/LB3DGameManager.cs using Guid(c098563f85d5ba144b65f5e8490bdf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f51a73f98b971fc695cf7fc7b698d4') in 0.007294 seconds 
+  Import took 0.014330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007293 seconds.
+  path: Assets/LB3D/CrabMonster/Scripts/Rikayon.cs
+  artifactKey: Guid(cd59c5d72a7b3fb46b2aa65394d9294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/CrabMonster/Scripts/Rikayon.cs using Guid(cd59c5d72a7b3fb46b2aa65394d9294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5ddb072b8cbf3fe924f768dc6bd56e') in 0.006978 seconds 
+  Import took 0.013984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007679 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-virtual-deformer.png
+  artifactKey: Guid(1302a9c22340e0a4bb719c9d0b8e1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-virtual-deformer.png using Guid(1302a9c22340e0a4bb719c9d0b8e1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eeeb745203c4b573dee35c2c6bf44b') in 0.016193 seconds 
+  Import took 0.023065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007250 seconds.
+  path: Assets/Environment/Scripts/Spawn.cs
+  artifactKey: Guid(ebd62f8120be4df41a33b3fced75c82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Scripts/Spawn.cs using Guid(ebd62f8120be4df41a33b3fced75c82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7b07a86db1469da6478dad924be4a7') in 0.007048 seconds 
+  Import took 0.014255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006847 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/TwistConstraint.cs
+  artifactKey: Guid(d9d7a2731c279434e90ce2f9f06c800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/TwistConstraint.cs using Guid(d9d7a2731c279434e90ce2f9f06c800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3c556bc1a2ac863ce885a37bb33b8a') in 0.007945 seconds 
+  Import took 0.015315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004365 seconds.
+  path: Assets/Enemies/Eggs/MediumEgg_Textures
+  artifactKey: Guid(9494e00716a465b46bacc4a84ac056e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/MediumEgg_Textures using Guid(9494e00716a465b46bacc4a84ac056e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb88c5b5ed6a56ec85227b7e4527cfd') in 0.007043 seconds 
+  Import took 0.015440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012648 seconds.
+  path: Assets/Managers/Level Generation/LevelGenerator.cs
+  artifactKey: Guid(3053452b69a990a44a5e5031bb1dcea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Level Generation/LevelGenerator.cs using Guid(3053452b69a990a44a5e5031bb1dcea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28222f56b9a305e08fa9214f0646a3bc') in 0.008089 seconds 
+  Import took 0.015481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006534 seconds.
+  path: Assets/Environment/Rooms/Doors/Scripts/Door.cs
+  artifactKey: Guid(ebea9badcb61d2b41be37daf6c98c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Rooms/Doors/Scripts/Door.cs using Guid(ebea9badcb61d2b41be37daf6c98c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca40bf30b115b87a835ba9f8eb390b64') in 0.007678 seconds 
+  Import took 0.015140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014027 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/ClothEditor.cs
+  artifactKey: Guid(f7baef7e3f5bb2242a7c2a5619ccd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/ClothEditor.cs using Guid(f7baef7e3f5bb2242a7c2a5619ccd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bafe2eab8ab4292f364e5766cde8b0') in 0.006902 seconds 
+  Import took 0.014390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010218 seconds.
+  path: Assets/Managers/Health/HealthManager.cs
+  artifactKey: Guid(7826e87594a1aef489a882a11849dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Health/HealthManager.cs using Guid(7826e87594a1aef489a882a11849dd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cac2a7d60c1a003fffc6ac33e149736') in 0.007438 seconds 
+  Import took 0.015050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006484 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Grid/NearPointSearch.cs
+  artifactKey: Guid(19d3a99874f835f4e8012ef141895b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Grid/NearPointSearch.cs using Guid(19d3a99874f835f4e8012ef141895b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebe81d22a1ca839e11e617faf9ef1f9') in 0.007727 seconds 
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018081 seconds.
+  path: Assets/Enemies/Ranged/Scripts/RangedEnemy.cs
+  artifactKey: Guid(bcbd9a1f12fdb3649bd46777518fdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Ranged/Scripts/RangedEnemy.cs using Guid(bcbd9a1f12fdb3649bd46777518fdfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc41493790e08d8628712904d750b071') in 0.007057 seconds 
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008273 seconds.
+  path: Assets/Player/Scripts/AcidProjectile.cs
+  artifactKey: Guid(be7d120c632e0e6469da21240b13897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Scripts/AcidProjectile.cs using Guid(be7d120c632e0e6469da21240b13897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83071e69325d9bfd6f9f43572b054fd4') in 0.007050 seconds 
+  Import took 0.014380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007499 seconds.
+  path: Assets/Editor/SightEditor.cs
+  artifactKey: Guid(cdc31177b8d57844fb83cf4e87cfd3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/SightEditor.cs using Guid(cdc31177b8d57844fb83cf4e87cfd3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5d84304a72f2ed7eb21ff43b217926') in 0.007589 seconds 
+  Import took 0.014486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007229 seconds.
+  path: Assets/UI/Scripts/HealthbarScript.cs
+  artifactKey: Guid(611c54e088be8af4eb23c00f251656c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/HealthbarScript.cs using Guid(611c54e088be8af4eb23c00f251656c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62440e59722735b0f42ead229cfac08') in 0.007008 seconds 
+  Import took 0.014534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018962 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ColliderAfterCollisionConstraint.cs
+  artifactKey: Guid(49a867fe8f6ee214abd97b447a5ddaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ColliderAfterCollisionConstraint.cs using Guid(49a867fe8f6ee214abd97b447a5ddaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b3c333a668f10b68395006a2c9939a') in 0.007324 seconds 
+  Import took 0.014215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007484 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/ParticleComponent.cs
+  artifactKey: Guid(b92d26473990446438b3862bb32a2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/ParticleComponent.cs using Guid(b92d26473990446438b3862bb32a2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a36a9927539bfbcb4d56b4e7e845f9') in 0.007266 seconds 
+  Import took 0.014115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008131 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/MagicaMeshCloth.cs
+  artifactKey: Guid(4c51609c7b517ea4cbe5867b57df38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/MagicaMeshCloth.cs using Guid(4c51609c7b517ea4cbe5867b57df38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3878196bd1a622caf50a26f8b57925') in 0.009191 seconds 
+  Import took 0.018528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007117 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/StaticStringBuilder.cs
+  artifactKey: Guid(e99c5dd86be4df44f84109deed2b1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/StaticStringBuilder.cs using Guid(e99c5dd86be4df44f84109deed2b1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55ad80f9355efa8928853fd0ed8bd38') in 0.009790 seconds 
+  Import took 0.016983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009950 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedMultiNativeList.cs
+  artifactKey: Guid(a042913b8022a534190a16e420d91d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedMultiNativeList.cs using Guid(a042913b8022a534190a16e420d91d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e2188ae5c813fb3889a79ff64f1cf0') in 0.007902 seconds 
+  Import took 0.014903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006945 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Avatar/MagicaAvatarGizmoDrawer.cs
+  artifactKey: Guid(cf3e8f3d3536a2848a8a85198861ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Avatar/MagicaAvatarGizmoDrawer.cs using Guid(cf3e8f3d3536a2848a8a85198861ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53273d6e101da9500fba5f6cddb947b0') in 0.008173 seconds 
+  Import took 0.015097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029981 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/CreateSingleton.cs
+  artifactKey: Guid(6eeca14faf7884e40b0ccf948f98004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/CreateSingleton.cs using Guid(6eeca14faf7884e40b0ccf948f98004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc1e4af6753a9a3bd50ee849c04abb4') in 0.007527 seconds 
+  Import took 0.015150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089413 seconds.
+  path: Assets/Items/Scripts/AmmoCollect.cs
+  artifactKey: Guid(9580899d2a2a2044c9c6db0196e7562a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/AmmoCollect.cs using Guid(9580899d2a2a2044c9c6db0196e7562a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71887fb4ab28693f64e942e09a785be') in 0.007372 seconds 
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010186 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/RestoreRotationConstraint.cs
+  artifactKey: Guid(c5c1aef76bf87974abb7b9ed27bbc16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/RestoreRotationConstraint.cs using Guid(c5c1aef76bf87974abb7b9ed27bbc16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0acded6ab03b459380ed8923d910027') in 0.007282 seconds 
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006985 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Reduction/NearPointReduction.cs
+  artifactKey: Guid(78b9b605f6d271f4fb6ff5d78d3bf4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Reduction/NearPointReduction.cs using Guid(78b9b605f6d271f4fb6ff5d78d3bf4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486e8d676382db875affd4ac70eb6990') in 0.007546 seconds 
+  Import took 0.017098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021129 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedNativeListWithCount.cs
+  artifactKey: Guid(f8f40a83df9b4104b88bfcb9cb97dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedNativeListWithCount.cs using Guid(f8f40a83df9b4104b88bfcb9cb97dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a83a25ef7f0607df2db037ae99649de') in 0.008398 seconds 
+  Import took 0.015193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053742 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/CoreComponent/BaseComponent.cs
+  artifactKey: Guid(0e96264e51d403140954fdb0e1057304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/CoreComponent/BaseComponent.cs using Guid(0e96264e51d403140954fdb0e1057304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c06faadb9d1878af07a89929bc4e7b6') in 0.007576 seconds 
+  Import took 0.016827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009487 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-bone-cloth.png
+  artifactKey: Guid(b00e0bd58fc5be9459601976e9e105da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-bone-cloth.png using Guid(b00e0bd58fc5be9459601976e9e105da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96adf32f7b9a9922ef296745d80bb18') in 0.017109 seconds 
+  Import took 0.024814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008272 seconds.
+  path: Assets/RotateThis.cs
+  artifactKey: Guid(0834797d43a76e940978ad708ebba994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RotateThis.cs using Guid(0834797d43a76e940978ad708ebba994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8545622b80b7593ed8db1a4ce62f3548') in 0.009611 seconds 
+  Import took 0.017082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004834 seconds.
+  path: Assets/Enemies/Grunt/Scripts
+  artifactKey: Guid(e69b6ae8885c2ca4c86ded299a0801f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Scripts using Guid(e69b6ae8885c2ca4c86ded299a0801f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b8f11a7eceeb2c0d33f6380cbafa32') in 0.007899 seconds 
+  Import took 0.016098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007895 seconds.
+  path: Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/Alg.Link.dll
+  artifactKey: Guid(bae8315fd33bde6409eb7ecf132e468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/SubstanceLink/Alg.Link.dll using Guid(bae8315fd33bde6409eb7ecf132e468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9b408659cea9afdc8bfb0cc99d06fb') in 0.013379 seconds 
+  Import took 0.020803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007512 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Data/MeshData.cs
+  artifactKey: Guid(3c619b2387cb98242bda05b06a1dd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Data/MeshData.cs using Guid(3c619b2387cb98242bda05b06a1dd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceb109329fee97f5cbd09387c6410dc') in 0.008293 seconds 
+  Import took 0.016249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006698 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-bone-spring.png
+  artifactKey: Guid(aac68e6d68a963548826b7a7d913657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-bone-spring.png using Guid(aac68e6d68a963548826b7a7d913657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b199055eba174bd5d7a68d801df61f3e') in 0.019612 seconds 
+  Import took 0.026526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008076 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Utility/EditorPresetUtility.cs
+  artifactKey: Guid(4bb4f910977d18d49aa3d07af53f3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Utility/EditorPresetUtility.cs using Guid(4bb4f910977d18d49aa3d07af53f3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f063167994bea985a31c74a9045f2237') in 0.010518 seconds 
+  Import took 0.017503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007399 seconds.
+  path: Assets/UI/Scripts/CraftingUI.cs
+  artifactKey: Guid(7405b17e440c70b438f15976c96225f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/CraftingUI.cs using Guid(7405b17e440c70b438f15976c96225f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4186bd16d1ad43708722e6a87733f1c5') in 0.009075 seconds 
+  Import took 0.017484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007211 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Physics/MagicaPlaneColliderGizmoDrawer.cs
+  artifactKey: Guid(59946a67a9bcc5a46b88c5333dd03f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Physics/MagicaPlaneColliderGizmoDrawer.cs using Guid(59946a67a9bcc5a46b88c5333dd03f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8312e0e8c9f0670b17a7fa5e76cabc') in 0.011708 seconds 
+  Import took 0.019189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007149 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/EditorExtension/DrawClothIconInHierarchy.cs
+  artifactKey: Guid(76013599a0f570d46894b2376881c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/EditorExtension/DrawClothIconInHierarchy.cs using Guid(76013599a0f570d46894b2376881c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c5c09dbe372aaf31b6802a3a734b93') in 0.007196 seconds 
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004778 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures
+  artifactKey: Guid(a6025f7aad756854a8dc71c1aff57ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures using Guid(a6025f7aad756854a8dc71c1aff57ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f155c0f0fd40f02f643c28a50b275e51') in 0.007843 seconds 
+  Import took 0.016703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007317 seconds.
+  path: Assets/Items/Scripts/Thrower.cs
+  artifactKey: Guid(af9573f1651ee264393923ad277d5a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Thrower.cs using Guid(af9573f1651ee264393923ad277d5a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76302b5e052c5533c774548545496478') in 0.009339 seconds 
+  Import took 0.016376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010266 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/BaseSkinningWorker.cs
+  artifactKey: Guid(259c035b38b0bb544a4ceee6dc0f1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/BaseSkinningWorker.cs using Guid(259c035b38b0bb544a4ceee6dc0f1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24f052a2bc07b10b6190e15534dac41') in 0.008324 seconds 
+  Import took 0.016659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007002 seconds.
+  path: Assets/Items/Scripts/Ammunition/ProjectileDamage.cs
+  artifactKey: Guid(796819939b93fbf4a973dfc747b5a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Ammunition/ProjectileDamage.cs using Guid(796819939b93fbf4a973dfc747b5a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40ee4590e41823988c1e1ef4f4d8c67') in 0.008177 seconds 
+  Import took 0.015321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006046 seconds.
+  path: Assets/Enemies/Ranged
+  artifactKey: Guid(581b649a1cc7cab48845af6628f591a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Ranged using Guid(581b649a1cc7cab48845af6628f591a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75cbe4a77855b14e8503b4bd4934fdc') in 0.006904 seconds 
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007819 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/ClothData.cs
+  artifactKey: Guid(0548f9dc46468d94c96cbbd1e5c05f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/ClothData.cs using Guid(0548f9dc46468d94c96cbbd1e5c05f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26127525ccf52005e8b6bc16d03e1791') in 0.007617 seconds 
+  Import took 0.014606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006551 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/ShareData/IShareDataObject.cs
+  artifactKey: Guid(279ff29a51369cc4998219d042dc3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/ShareData/IShareDataObject.cs using Guid(279ff29a51369cc4998219d042dc3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147090bafe7cb1d02d67d104bb55c817') in 0.006830 seconds 
+  Import took 0.013430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006703 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Define/ComputeDefine.cs
+  artifactKey: Guid(6e2e085fc150539428b30f4a7366ca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Define/ComputeDefine.cs using Guid(6e2e085fc150539428b30f4a7366ca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef61f8af9703bfb39188737a0f4125a0') in 0.007061 seconds 
+  Import took 0.015140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007584 seconds.
+  path: Assets/Enemies/Senses/Sight.cs
+  artifactKey: Guid(ac59a6e7dbc5da249a831724c2c782f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Senses/Sight.cs using Guid(ac59a6e7dbc5da249a831724c2c782f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d1cf4a63e054e213af2327d311c750') in 0.007059 seconds 
+  Import took 0.014452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008651 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatarRuntime.cs
+  artifactKey: Guid(54e20a1c575476349ab0dfab3a7ed3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatarRuntime.cs using Guid(54e20a1c575476349ab0dfab3a7ed3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66505b7eeef03f0be6dbe639ac77ed70') in 0.008354 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007122 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/ClothSetup.cs
+  artifactKey: Guid(938773b7c2f9e5848b95ae50db4b84bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/ClothSetup.cs using Guid(938773b7c2f9e5848b95ae50db4b84bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e91f6f5b50bf3a819e08c578f0fb9b') in 0.007148 seconds 
+  Import took 0.013809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006211 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d22629d21296a1416924aa0934115') in 0.007045 seconds 
+  Import took 0.014887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050954 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_AO.tga
+  artifactKey: Guid(9eb11759cfad6c54ea695e833b37727d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_AO.tga using Guid(9eb11759cfad6c54ea695e833b37727d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903dbae2d77e1abe9756ed8b45a97ed5') in 0.023054 seconds 
+  Import took 0.029978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007309 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerWorker.cs
+  artifactKey: Guid(bcfe36e4a0d8a714fbb97cbe9aa50af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerWorker.cs using Guid(bcfe36e4a0d8a714fbb97cbe9aa50af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526bb61680f23ff7291f48f197f108a2') in 0.007582 seconds 
+  Import took 0.015178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010630 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c667018daaca3c3860181c3dd6cb5383') in 0.007438 seconds 
+  Import took 0.014468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063189 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/VirtualMeshWorker.cs
+  artifactKey: Guid(d05b85e0b08cb7441a0d1771b6d2d36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/VirtualMeshWorker.cs using Guid(d05b85e0b08cb7441a0d1771b6d2d36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e591480ceb06832f2c8f70869464e7e2') in 0.007549 seconds 
+  Import took 0.014901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011348 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/CameraOrbit.cs
+  artifactKey: Guid(6e1bd0d2f898e814aac9eb6ac6b1a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/CameraOrbit.cs using Guid(6e1bd0d2f898e814aac9eb6ac6b1a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d13a57231654c8d929a3e5463edb4') in 0.011835 seconds 
+  Import took 0.019680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016363 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/WindComponent/MagicaDirectionalWind.cs
+  artifactKey: Guid(0d0fd1877a3594441a7b319ef0add603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/WindComponent/MagicaDirectionalWind.cs using Guid(0d0fd1877a3594441a7b319ef0add603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c62496afabc843e3fe2fd92e34ceb5') in 0.007923 seconds 
+  Import took 0.015346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008315 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/DataUtility.cs
+  artifactKey: Guid(0d5c33cfaba2c24489f7bf514f086efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/DataUtility.cs using Guid(0d5c33cfaba2c24489f7bf514f086efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0395708808520e58b94710e696867d') in 0.007528 seconds 
+  Import took 0.015225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007721 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaVirtualDeformerGizmoDrawer.cs
+  artifactKey: Guid(a5d38e56e1b75fd44b768eae7bb58bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaVirtualDeformerGizmoDrawer.cs using Guid(a5d38e56e1b75fd44b768eae7bb58bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483f7b11009b104fb78e2403abce3499') in 0.007876 seconds 
+  Import took 0.015308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011016 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Data/RuntimeStatus.cs
+  artifactKey: Guid(43f40f998156bb845b159c24a35cde5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Data/RuntimeStatus.cs using Guid(43f40f998156bb845b159c24a35cde5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1373344b05502c4e0b6fdcf0482ba295') in 0.008103 seconds 
+  Import took 0.015352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009469 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/SelectionData.cs
+  artifactKey: Guid(5479bb56a42b7f94bbae5d75fe03f75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/SelectionData.cs using Guid(5479bb56a42b7f94bbae5d75fe03f75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b720290baf69e829afdb96aa9d9c90a') in 0.008128 seconds 
+  Import took 0.015740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006736 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Deformer/BaseMeshDeformer.cs
+  artifactKey: Guid(66ba3095345b3994a847d898aacb1201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Deformer/BaseMeshDeformer.cs using Guid(66ba3095345b3994a847d898aacb1201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed70b3f279e8835a1c0727df24c717a') in 0.008425 seconds 
+  Import took 0.015582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004506 seconds.
+  path: Assets/Enemies/Steering
+  artifactKey: Guid(5ee40fef1c157bc499e096ad548372aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering using Guid(5ee40fef1c157bc499e096ad548372aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a910365689c25063b6746fe121d7cf68') in 0.008667 seconds 
+  Import took 0.017405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140742 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/BoneClothTarget.cs
+  artifactKey: Guid(ca56d5cddab98954b9842b877ce2c51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/BoneClothTarget.cs using Guid(ca56d5cddab98954b9842b877ce2c51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9132f96bb16f539cc42bdbe80b6216') in 0.007424 seconds 
+  Import took 0.014483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007634 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Core/ReductionMeshAccess.cs
+  artifactKey: Guid(1fa03b728415a7141bc543f3cf6dca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Core/ReductionMeshAccess.cs using Guid(1fa03b728415a7141bc543f3cf6dca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e45a2ddb661980f17b46790e54bac5') in 0.007433 seconds 
+  Import took 0.014332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007503 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/API/BaseClothAPI.cs
+  artifactKey: Guid(3672654f4e22d344bacc92116019c217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/API/BaseClothAPI.cs using Guid(3672654f4e22d344bacc92116019c217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c3030ae875daf873442f235c2ee165') in 0.018163 seconds 
+  Import took 0.026935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022312 seconds.
+  path: Assets/Enemies/Queens Guard
+  artifactKey: Guid(c8ca0dd963e5a7a4e8e8200374800ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Queens Guard using Guid(c8ca0dd963e5a7a4e8e8200374800ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46411362c1da670df838df8fc70ddda2') in 0.015429 seconds 
+  Import took 0.024443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071248 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedChunkNativeArray.cs
+  artifactKey: Guid(9f928a26a875c0442b1beda82f884069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedChunkNativeArray.cs using Guid(9f928a26a875c0442b1beda82f884069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8490c5ee44973ec93bf5f76c1630c13') in 0.008248 seconds 
+  Import took 0.017099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033096 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Deformer/MeshData.cs
+  artifactKey: Guid(2b8ed8fdca875474bbc1b8d6dcfb79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Deformer/MeshData.cs using Guid(2b8ed8fdca875474bbc1b8d6dcfb79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4425e85c52ca153549f35c017e9467d8') in 0.004175 seconds 
+  Import took 0.012800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008647 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/API/CoreComponentAPI.cs
+  artifactKey: Guid(8a5248265d14adc47be8355a90e5d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/API/CoreComponentAPI.cs using Guid(8a5248265d14adc47be8355a90e5d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acac44b865f426c918065c461e468470') in 0.011679 seconds 
+  Import took 0.020589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013372 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedNativeList.cs
+  artifactKey: Guid(62445b959c4a4c541a66bcfce607a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedNativeList.cs using Guid(62445b959c4a4c541a66bcfce607a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e631a00978a1a8315d4ff08b08f700') in 0.008646 seconds 
+  Import took 0.018336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059263 seconds.
+  path: Assets/Allegorithmic/Plugins/Substance.Game.dll
+  artifactKey: Guid(16ea688720e474944a4e808112b45ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allegorithmic/Plugins/Substance.Game.dll using Guid(16ea688720e474944a4e808112b45ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aaca49bdb2dfe11bdc417267e64988') in 0.006961 seconds 
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009013 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Deformer/RenderMeshDeformer.cs
+  artifactKey: Guid(f7fed43871bf94c45b5ce95f4f0c7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Deformer/RenderMeshDeformer.cs using Guid(f7fed43871bf94c45b5ce95f4f0c7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4781cdf53d37d96592df69bf16b72016') in 0.007856 seconds 
+  Import took 0.015313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017880 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/AutoRotate.cs
+  artifactKey: Guid(a458da9e2bc43a14ba6cfe95b5d2e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/AutoRotate.cs using Guid(a458da9e2bc43a14ba6cfe95b5d2e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42934f8279d4e61bfa36bf5b7535c44c') in 0.009148 seconds 
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006723 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/EditorExtension/MenuItemScript.cs
+  artifactKey: Guid(4ee1f678fec12ea4ca80872c3544d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/EditorExtension/MenuItemScript.cs using Guid(4ee1f678fec12ea4ca80872c3544d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30f60458199bc37067c52cfed9fbf17') in 0.008459 seconds 
+  Import took 0.015182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008100 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshClothGizmoDrawer.cs
+  artifactKey: Guid(bf037032916b96141acb2006afa681ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshClothGizmoDrawer.cs using Guid(bf037032916b96141acb2006afa681ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4bc08623c503893151e95f54dd6c74') in 0.007798 seconds 
+  Import took 0.015387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007853 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneClothGizmoDrawer.cs
+  artifactKey: Guid(3a58103e455d77842a0a3799dd6da23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneClothGizmoDrawer.cs using Guid(3a58103e455d77842a0a3799dd6da23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47779805e3861c72f296a71355f0c88') in 0.009737 seconds 
+  Import took 0.018519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008128 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/ChunkData.cs
+  artifactKey: Guid(e43955c6eafec394ba366af312080727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/ChunkData.cs using Guid(e43955c6eafec394ba366af312080727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbb5d509820737e162ca35b897ea898') in 0.007443 seconds 
+  Import took 0.014432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008053 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatarParts.cs
+  artifactKey: Guid(6e57d384df8c7624bb0dfad5adce4112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatarParts.cs using Guid(6e57d384df8c7624bb0dfad5adce4112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a80a19e59748ecd60f8ab1c846bea') in 0.008508 seconds 
+  Import took 0.015764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007005 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-avatar.png
+  artifactKey: Guid(93e0de5d5b2710448a10173d30aed649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-avatar.png using Guid(93e0de5d5b2710448a10173d30aed649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e569644e546293ede9e4ebaa59056609') in 0.016861 seconds 
+  Import took 0.025620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143274 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/MagicaPlaneCollider.cs
+  artifactKey: Guid(02089bb549a07e2469a7d9d4687ca734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/MagicaPlaneCollider.cs using Guid(02089bb549a07e2469a7d9d4687ca734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f39fac1fcfc8bcba2287091fce4d483') in 0.010568 seconds 
+  Import took 0.017873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005217 seconds.
+  path: Assets/Enemies/Ranged/Scripts
+  artifactKey: Guid(71ee46aa52e40dc428c57c09effc93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Ranged/Scripts using Guid(71ee46aa52e40dc428c57c09effc93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92334fcd8371b65d8c265cec0ff2983') in 0.003042 seconds 
+  Import took 0.010736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029456 seconds.
+  path: Assets/Enemies/Steering/LinePath.cs
+  artifactKey: Guid(8dd24b9966ee8dc418d9a7fc990fd562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering/LinePath.cs using Guid(8dd24b9966ee8dc418d9a7fc990fd562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e974d35cec8cb97c1df260257c1858b') in 0.007970 seconds 
+  Import took 0.014767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053193 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampPositionConstraint.cs
+  artifactKey: Guid(3d03f08c4831071408a63c3626d0ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampPositionConstraint.cs using Guid(3d03f08c4831071408a63c3626d0ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29b08e26d5db9a2fa5fba2cc7c133d7') in 0.009050 seconds 
+  Import took 0.015939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079129 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Reduction/PolygonLinkReduction.cs
+  artifactKey: Guid(a106f36396e0f6a4db2c89ec4df75165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Reduction/PolygonLinkReduction.cs using Guid(a106f36396e0f6a4db2c89ec4df75165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f60aca6ff96935af41d5ba820dd9587') in 0.006968 seconds 
+  Import took 0.013797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041504 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/RenderMeshWorker.cs
+  artifactKey: Guid(918ac2f777db8d241b7afd98719962db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/RenderMeshWorker.cs using Guid(918ac2f777db8d241b7afd98719962db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aeaf749787a8ef2e30f8fa30171fbc9') in 0.008109 seconds 
+  Import took 0.016729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057030 seconds.
+  path: Assets/Items/Scripts/Ammunition/AmmunitionCreator.cs
+  artifactKey: Guid(ec074067df4e34e4193748073cdb639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Ammunition/AmmunitionCreator.cs using Guid(ec074067df4e34e4193748073cdb639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ee4ca1548f0de694b71003029dd0d0') in 0.007205 seconds 
+  Import took 0.014532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008117 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaRenderDeformerGizmoDrawer.cs
+  artifactKey: Guid(e5a44d73863f8474b9a0dc897c67d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaRenderDeformerGizmoDrawer.cs using Guid(e5a44d73863f8474b9a0dc897c67d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ddabfe29fb4044c2e5066502df7c6c') in 0.008669 seconds 
+  Import took 0.016923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022177 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/VolumeConstraint.cs
+  artifactKey: Guid(8916365959a03d1488fdc215ae7b9156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/VolumeConstraint.cs using Guid(8916365959a03d1488fdc215ae7b9156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f110806b8cbc0b514a9044ab4911b47') in 0.007153 seconds 
+  Import took 0.014875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022987 seconds.
+  path: Assets/Enemies/Grunt
+  artifactKey: Guid(9e9e1a2d9e7fdad4089f37b4c25da93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt using Guid(9e9e1a2d9e7fdad4089f37b4c25da93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9151ad2160e37866a2d6116b6e9691e5') in 0.007343 seconds 
+  Import took 0.014840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007108 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/EditorExtension/ClothMonitorMenu.cs
+  artifactKey: Guid(67430756449af5a49a9892802545b292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/EditorExtension/ClothMonitorMenu.cs using Guid(67430756449af5a49a9892802545b292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b87f0579ff08a7ed0da1a136891b00e') in 0.009279 seconds 
+  Import took 0.015965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012031 seconds.
+  path: Assets/Items/Scripts/LevelFinisher.cs
+  artifactKey: Guid(f418693f8ddb4cc479b031f616345d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/LevelFinisher.cs using Guid(f418693f8ddb4cc479b031f616345d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cbd2292c6d4efcebaae00d98ccd1e7') in 0.008720 seconds 
+  Import took 0.016115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006981 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/API/MagicaDirectionalWindAPI.cs
+  artifactKey: Guid(75b942fef75ea1a449cbf76aa586968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/API/MagicaDirectionalWindAPI.cs using Guid(75b942fef75ea1a449cbf76aa586968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747abaaef991d3984dd1f3fd13deb55f') in 0.007807 seconds 
+  Import took 0.016201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009345 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/RestoreDistanceConstraint.cs
+  artifactKey: Guid(995863b353d580e4480070a95e645a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/RestoreDistanceConstraint.cs using Guid(995863b353d580e4480070a95e645a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd1dfcc15726ee4244a387e44fef8a9') in 0.008653 seconds 
+  Import took 0.016098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049948 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/SpringConstraint.cs
+  artifactKey: Guid(7ea6f5023e17f4440a35d0e9fce9f1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/SpringConstraint.cs using Guid(7ea6f5023e17f4440a35d0e9fce9f1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a279f198ec2389440c893f90c04ee3f1') in 0.007156 seconds 
+  Import took 0.014610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007592 seconds.
+  path: Assets/Unused/Scripts/MouseLook.cs
+  artifactKey: Guid(a8ccac4fbd4c6744ca54e002137e527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unused/Scripts/MouseLook.cs using Guid(a8ccac4fbd4c6744ca54e002137e527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fc9b74c75875ef7400c5ef39a719df') in 0.007095 seconds 
+  Import took 0.015818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004643 seconds.
+  path: Assets/Enemies/Queen
+  artifactKey: Guid(e3667e2ba030eac45b3e510326bad3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Queen using Guid(e3667e2ba030eac45b3e510326bad3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63ba56c7f50ddf0bff50e8d8db6b721') in 0.007490 seconds 
+  Import took 0.014368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007391 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/CompositeRotationConstraint.cs
+  artifactKey: Guid(4c633ddbd19b6ff4ea2d5a3c188a0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/CompositeRotationConstraint.cs using Guid(4c633ddbd19b6ff4ea2d5a3c188a0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbc66493adbf71395747d095b64ce8c') in 0.009268 seconds 
+  Import took 0.015972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007960 seconds.
+  path: Assets/Managers/Saving/SaveData.cs
+  artifactKey: Guid(f0d93966e3128c441a3e57044db2b540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Saving/SaveData.cs using Guid(f0d93966e3128c441a3e57044db2b540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbfeaeb73af1772ab8ffed4480a8bc1') in 0.008689 seconds 
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132354 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Normal.tga
+  artifactKey: Guid(bff015efa83fd254ab777da965760fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Normal.tga using Guid(bff015efa83fd254ab777da965760fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bec59f281f303c5dda73039b24906d4') in 0.091634 seconds 
+  Import took 0.099446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009743 seconds.
+  path: Assets/Managers/Saving/SaveManager.cs
+  artifactKey: Guid(087dcd082f138744cb9b38a6722f1dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Saving/SaveManager.cs using Guid(087dcd082f138744cb9b38a6722f1dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9146194d3f6d5201de3fbc0db2c053b8') in 0.007552 seconds 
+  Import took 0.014376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006746 seconds.
+  path: Assets/Player/PlayerAnimationManager.cs
+  artifactKey: Guid(ab9ead93df2e7d94db446d5a82c68a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/PlayerAnimationManager.cs using Guid(ab9ead93df2e7d94db446d5a82c68a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45258197870e2711225d417b2ee455a1') in 0.007629 seconds 
+  Import took 0.014481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007153 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerAccess.cs
+  artifactKey: Guid(5c2b5d6af083aa74f8e95a4ce23b5ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerAccess.cs using Guid(5c2b5d6af083aa74f8e95a4ce23b5ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3bbd85c76c837de912fd636457766f') in 0.009092 seconds 
+  Import took 0.015493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028212 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Deformer/DeformerGizmoDrawer.cs
+  artifactKey: Guid(a2db788b295172947a5a9e3ef62ba780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Deformer/DeformerGizmoDrawer.cs using Guid(a2db788b295172947a5a9e3ef62ba780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1897ceea54f1d35871880ce9be3db9e1') in 0.008363 seconds 
+  Import took 0.015909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007120 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/MeshUtility.cs
+  artifactKey: Guid(a021dad5c462d5d4082a8cd1a05d3a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/MeshUtility.cs using Guid(a021dad5c462d5d4082a8cd1a05d3a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a606c1a3af0c7718f82857ef33df14b') in 0.012696 seconds 
+  Import took 0.020056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008140 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/AdjustRotationWorker.cs
+  artifactKey: Guid(278454362badfcf4fa525a6d8f955fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/AdjustRotationWorker.cs using Guid(278454362badfcf4fa525a6d8f955fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc17bb1541901030021a1b1d7fae00b') in 0.008625 seconds 
+  Import took 0.016592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004460 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures
+  artifactKey: Guid(c38dd3ec71a089b47a43b0d9a9f16e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures using Guid(c38dd3ec71a089b47a43b0d9a9f16e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f16ebb150a055106b3e7e9c9467c326') in 0.007215 seconds 
+  Import took 0.016584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006789 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/ColliderComponent.cs
+  artifactKey: Guid(a5de578bdd799f7489b617d8a645a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/ColliderComponent.cs using Guid(a5de578bdd799f7489b617d8a645a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0224028e8343ebfb08681864652f53b') in 0.008242 seconds 
+  Import took 0.015693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048288 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/TriangleBendConstraint.cs
+  artifactKey: Guid(6e2c04b132a1a8f4e9af13521cb53e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/TriangleBendConstraint.cs using Guid(6e2c04b132a1a8f4e9af13521cb53e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87205ad8e19098f4e0f40eba9d17742') in 0.008096 seconds 
+  Import took 0.014817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007000 seconds.
+  path: Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll
+  artifactKey: Guid(43a8bbf65be290d44ba52b94476242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll using Guid(43a8bbf65be290d44ba52b94476242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04adf09f15034daf81763e9c7b45a3b') in 0.006937 seconds 
+  Import took 0.013898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030259 seconds.
+  path: Assets/Enemies/Senses
+  artifactKey: Guid(645cf732acccb5f45ace44cf6e271e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Senses using Guid(645cf732acccb5f45ace44cf6e271e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b68be91797595a50ca9a090781cdddc') in 0.008748 seconds 
+  Import took 0.017303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039519 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/MagicaBoneSpring.cs
+  artifactKey: Guid(64cf32dda670fde4198398db706c7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/MagicaBoneSpring.cs using Guid(64cf32dda670fde4198398db706c7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15b4b409af02e9b9a6a65bee4a0734') in 0.008240 seconds 
+  Import took 0.015946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055794 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerCompute.cs
+  artifactKey: Guid(5fe30412bdf524346a1a3e736bc0418b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerCompute.cs using Guid(5fe30412bdf524346a1a3e736bc0418b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3bce5e012dd3890cdbec671972706f') in 0.008023 seconds 
+  Import took 0.016167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007254 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-manager.png
+  artifactKey: Guid(d5311243a5e213a4d9d79aade1133f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-manager.png using Guid(d5311243a5e213a4d9d79aade1133f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b183f1414a45b1056a93fa0911b09ff0') in 0.017878 seconds 
+  Import took 0.024541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008724 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/CoreComponent/ComponentType.cs
+  artifactKey: Guid(3953c04a34e264548a829ce0c6fe60d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/CoreComponent/ComponentType.cs using Guid(3953c04a34e264548a829ce0c6fe60d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e97c6fdb0e48ce5df48f4a1dee7b53a') in 0.008659 seconds 
+  Import took 0.017052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073777 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/LineWorker.cs
+  artifactKey: Guid(98133c112f5e8d5428499bc12c573b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/LineWorker.cs using Guid(98133c112f5e8d5428499bc12c573b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d4b0a2e7e81ef0654fb857944b3892') in 0.008968 seconds 
+  Import took 0.017327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018539 seconds.
+  path: Assets/Allegorithmic/Plugins/Substance.EditorHelper/Scripter.cs
+  artifactKey: Guid(d89b80f4b24cce644b8e52d3616d167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allegorithmic/Plugins/Substance.EditorHelper/Scripter.cs using Guid(d89b80f4b24cce644b8e52d3616d167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45256b779a1aeb2de7ecf688a2244a34') in 0.008097 seconds 
+  Import took 0.014770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051647 seconds.
+  path: Assets/Items/Scripts/Projectile.cs
+  artifactKey: Guid(49bd185c0eec50a4492e4ceff8ca3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Projectile.cs using Guid(49bd185c0eec50a4492e4ceff8ca3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5389e81f1190f40b88754ca17df76283') in 0.008776 seconds 
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007350 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaRenderDeformerInspector.cs
+  artifactKey: Guid(e4b333304fd35e045a7e3961db325bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaRenderDeformerInspector.cs using Guid(e4b333304fd35e045a7e3961db325bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0c8d0d423a6be36d9881f6d2e33f2e') in 0.009895 seconds 
+  Import took 0.017314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005283 seconds.
+  path: Assets/Enemies/Queens Guard/Scripts
+  artifactKey: Guid(11bca20a5ffa58a4c8f8dde21e5a9694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Queens Guard/Scripts using Guid(11bca20a5ffa58a4c8f8dde21e5a9694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec6a98238fa4264db767986ccfa8580') in 0.003072 seconds 
+  Import took 0.010292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009400 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/MathUtility.cs
+  artifactKey: Guid(eb54c66718a556b4c9c43310c6157f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/MathUtility.cs using Guid(eb54c66718a556b4c9c43310c6157f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc82a379371453f7d8d90a309998e09') in 0.007106 seconds 
+  Import took 0.014378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037290 seconds.
+  path: Assets/Enemies/Senses/Sound.cs
+  artifactKey: Guid(509ded2813352fc4fa11e66c57cb817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Senses/Sound.cs using Guid(509ded2813352fc4fa11e66c57cb817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c05ae8dfdf95d0ea389a2f82428049') in 0.007252 seconds 
+  Import took 0.013605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007840 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatar.cs
+  artifactKey: Guid(0ba07c97c7943c24db856ca5f14a4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatar.cs using Guid(0ba07c97c7943c24db856ca5f14a4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64c0f2e70c08ae3b9a5d60143bb1992') in 0.007802 seconds 
+  Import took 0.017266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010911 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-mesh-cloth.png
+  artifactKey: Guid(1a9e7791c95c5a6419ca6f8b39f5121f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-mesh-cloth.png using Guid(1a9e7791c95c5a6419ca6f8b39f5121f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c32adaa24a62e0cece44361e122c698') in 0.014390 seconds 
+  Import took 0.022222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008402 seconds.
+  path: Assets/Managers/Level Generation/RoomScript.cs
+  artifactKey: Guid(d454c60cab0f62847bcabd81f28d94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Level Generation/RoomScript.cs using Guid(d454c60cab0f62847bcabd81f28d94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d35668b500c384af6667f93d72734') in 0.008103 seconds 
+  Import took 0.015055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009018 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Utility/PointSelector.cs
+  artifactKey: Guid(caf93f1d8d2a77447bf3e1c972d86d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Utility/PointSelector.cs using Guid(caf93f1d8d2a77447bf3e1c972d86d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f692b36c3fbf30f9e3d600e73dd5520') in 0.007876 seconds 
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005579 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/PH_Textures
+  artifactKey: Guid(29da1c9e287a72a449001959140fa7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/PH_Textures using Guid(29da1c9e287a72a449001959140fa7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9176cb8b2371c906fd99c6949f36682') in 0.007337 seconds 
+  Import took 0.013706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053543 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerParticleData.cs
+  artifactKey: Guid(e67d24f57f8ad594c90f5c5301d8fc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerParticleData.cs using Guid(e67d24f57f8ad594c90f5c5301d8fc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cf4a1bf417c4fa0fb447ff2bcf1bbd') in 0.007339 seconds 
+  Import took 0.013776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006472 seconds.
+  path: Assets/Infestation_Generated/Scripts/Infestation_PulseOrigin.cs
+  artifactKey: Guid(355669009ec38de4aaaf761799cf55d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infestation_Generated/Scripts/Infestation_PulseOrigin.cs using Guid(355669009ec38de4aaaf761799cf55d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5840a1ea732981dda9186eb03da570') in 0.007394 seconds 
+  Import took 0.014661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041714 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/MagicaSphereCollider.cs
+  artifactKey: Guid(95a15aa59f941764a9ac8c746b2f883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/MagicaSphereCollider.cs using Guid(95a15aa59f941764a9ac8c746b2f883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029d3afa40b5f026b009844678463cd0') in 0.008181 seconds 
+  Import took 0.015576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008000 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/CoreComponent/CoreComponent.cs
+  artifactKey: Guid(0cd7ff06bce73c84387b2fc94e9f6c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/CoreComponent/CoreComponent.cs using Guid(0cd7ff06bce73c84387b2fc94e9f6c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51e2605dd226b0d0acd8318cd2a11b2') in 0.007029 seconds 
+  Import took 0.014429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007572 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Utility/CustomReorderableList.cs
+  artifactKey: Guid(7b003cccf73d9a24893a17423f9cd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Utility/CustomReorderableList.cs using Guid(7b003cccf73d9a24893a17423f9cd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd341a2328e704f759c0dca4f863244c6') in 0.007356 seconds 
+  Import took 0.014482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072647 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Grid/GridHash.cs
+  artifactKey: Guid(536124fde44ab264892bd7b3e05997ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Grid/GridHash.cs using Guid(536124fde44ab264892bd7b3e05997ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa28955010d530afd6542728c8ecd82') in 0.007353 seconds 
+  Import took 0.014329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006862 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/UpdateTimeManager.cs
+  artifactKey: Guid(4ea0f8c759a01694fb8c05f7046ab9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/UpdateTimeManager.cs using Guid(4ea0f8c759a01694fb8c05f7046ab9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b90a7a528f524024c0972456cbb609') in 0.009950 seconds 
+  Import took 0.017062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006960 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Deformer/VirtualMeshDeformer.cs
+  artifactKey: Guid(12d50892618914343a4de58a9a77fd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Deformer/VirtualMeshDeformer.cs using Guid(12d50892618914343a4de58a9a77fd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00afc4bd1d1993d64fce6385af12bf9e') in 0.009348 seconds 
+  Import took 0.019331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048806 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Define/ErrorDefine.cs
+  artifactKey: Guid(30116bb3222cd2041a4f1703efbf27ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Define/ErrorDefine.cs using Guid(30116bb3222cd2041a4f1703efbf27ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68571fe56e588a5f6ec83f7453590355') in 0.007096 seconds 
+  Import took 0.014707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062276 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36a1292aee4dc108bd2660891b7db3a') in 0.007002 seconds 
+  Import took 0.013861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070946 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Data/IDataVerify.cs
+  artifactKey: Guid(e6b38d5e93d3e014dad3e85749cc78f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Data/IDataVerify.cs using Guid(e6b38d5e93d3e014dad3e85749cc78f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc24373c317f4b4c7501c4333e6a4a9') in 0.009201 seconds 
+  Import took 0.015937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008512 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/EditorExtension/AboutMenu.cs
+  artifactKey: Guid(61ff1727dff61664e80d6f02da4d05b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/EditorExtension/AboutMenu.cs using Guid(61ff1727dff61664e80d6f02da4d05b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1873fa0f2cbfe2a9f29e538dabade2e4') in 0.008855 seconds 
+  Import took 0.017465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013282 seconds.
+  path: Assets/Enemies/Grunt/Scripts/DamageDoodle.cs
+  artifactKey: Guid(f5baee1875103514a874ffedb10105d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Scripts/DamageDoodle.cs using Guid(f5baee1875103514a874ffedb10105d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92ad4d98310c7ccbfc995d219302453') in 0.007898 seconds 
+  Import took 0.016315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007535 seconds.
+  path: Assets/Environment/Rooms/Doors/Scripts/DoorKeys.cs
+  artifactKey: Guid(338b8aaae075bc24c95c48cd27daeab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Rooms/Doors/Scripts/DoorKeys.cs using Guid(338b8aaae075bc24c95c48cd27daeab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece971a1b9f57cef69791380abb3edd9') in 0.007515 seconds 
+  Import took 0.015030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008188 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshSpringInspector.cs
+  artifactKey: Guid(56a299f6e0bc2e941aae1a80f506cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshSpringInspector.cs using Guid(56a299f6e0bc2e941aae1a80f506cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551ea8cd2c21fb3a8812611c9bb5ea1d') in 0.008886 seconds 
+  Import took 0.017975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004298 seconds.
+  path: Assets/Enemies/Buster/Material
+  artifactKey: Guid(81c42a6ebf09b5b4dbcfdaf12c44cc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Buster/Material using Guid(81c42a6ebf09b5b4dbcfdaf12c44cc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41ccd2a5bd76fa3b6b31323d3eff769') in 0.006422 seconds 
+  Import took 0.013512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037500 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/MagicaPhysicsManager.cs
+  artifactKey: Guid(1446143d2dd8ec9418e07f18d96fadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/MagicaPhysicsManager.cs using Guid(1446143d2dd8ec9418e07f18d96fadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51ad6f6da5903c70790b99d14cfd9ce') in 0.008060 seconds 
+  Import took 0.015021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007961 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Physics/MagicaDirectionalWindGizmoDrawer.cs
+  artifactKey: Guid(351422299a98c5c4394f50af8f6d9682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Physics/MagicaDirectionalWindGizmoDrawer.cs using Guid(351422299a98c5c4394f50af8f6d9682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b307320969e00cd46478588a0ee7b') in 0.008078 seconds 
+  Import took 0.015493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006923 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/API/MagicaPhysicsManagerAPI.cs
+  artifactKey: Guid(67bd11b62e6b9924cac1d1f96004da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/API/MagicaPhysicsManagerAPI.cs using Guid(67bd11b62e6b9924cac1d1f96004da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50fb822cdb3947f48d33019e43539f2') in 0.007966 seconds 
+  Import took 0.014894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007285 seconds.
+  path: Assets/Managers/AmmoDisplay.cs
+  artifactKey: Guid(1ae8ef6e8ec4e9c429609491695a6668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/AmmoDisplay.cs using Guid(1ae8ef6e8ec4e9c429609491695a6668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5491bb9408a9306db698c5745993f78') in 0.008734 seconds 
+  Import took 0.017407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004576 seconds.
+  path: Assets/Enemies/Eggs/LargeEgg_Material
+  artifactKey: Guid(382494e3543da3849939f9b9805d1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/LargeEgg_Material using Guid(382494e3543da3849939f9b9805d1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d45f7747f6beb21dbbf71bee7667ac4') in 0.008608 seconds 
+  Import took 0.016144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008286 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/API/MagicaAvatarAPI.cs
+  artifactKey: Guid(9a827831a89481e488a2d9350f07af1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/API/MagicaAvatarAPI.cs using Guid(9a827831a89481e488a2d9350f07af1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14bdba6468d8dd724bad1acab9190cf') in 0.007888 seconds 
+  Import took 0.015584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008349 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/SpringData.cs
+  artifactKey: Guid(2bea2a1e2b1f10348bf63804a8c1ede5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/SpringData.cs using Guid(2bea2a1e2b1f10348bf63804a8c1ede5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91922905e92d6e421c923cf41a0f2074') in 0.008147 seconds 
+  Import took 0.015295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006940 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/MeshParticleWorker.cs
+  artifactKey: Guid(c007b803c2e41d342b1812106d604b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/MeshParticleWorker.cs using Guid(c007b803c2e41d342b1812106d604b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095a38e198b9647b2dd19605426985ca') in 0.007940 seconds 
+  Import took 0.015857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007242 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Data/FinalData.cs
+  artifactKey: Guid(31460ed5f76a9a248b4cd3754cf9423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Data/FinalData.cs using Guid(31460ed5f76a9a248b4cd3754cf9423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfd5da62694bc60323014fef774e56d') in 0.007571 seconds 
+  Import took 0.014594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025440 seconds.
+  path: Assets/Items/Scripts/SecurityCamera/CamMovement.cs
+  artifactKey: Guid(d1ecaf43661d4df41a3f31969219589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/SecurityCamera/CamMovement.cs using Guid(d1ecaf43661d4df41a3f31969219589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f677a48cb04a8b42b03f82a891d1e3') in 0.008078 seconds 
+  Import took 0.014615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007400 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/GizmoUtility.cs
+  artifactKey: Guid(1a28bb61fb4a41845883b98666cd3802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/GizmoUtility.cs using Guid(1a28bb61fb4a41845883b98666cd3802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d19b986888459622139a78d8f1965ad') in 0.008277 seconds 
+  Import took 0.014887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009017 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-mesh-spring.png
+  artifactKey: Guid(b6d0de0b39b33dc4fa759fa73c56e683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-mesh-spring.png using Guid(b6d0de0b39b33dc4fa759fa73c56e683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6622e43c00edb4ed4ac4a0d7d0de49b') in 0.019663 seconds 
+  Import took 0.027092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046289 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Data/DebugData.cs
+  artifactKey: Guid(89a3400e45a1fdd44a22372dd7c801bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Data/DebugData.cs using Guid(89a3400e45a1fdd44a22372dd7c801bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd5448976db2be3bc9ac2a0816b2d1e') in 0.006704 seconds 
+  Import took 0.013295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067971 seconds.
+  path: Assets/Environment/Scripts/Trap.cs
+  artifactKey: Guid(cd0af3cca086dee44a969792a6912e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Scripts/Trap.cs using Guid(cd0af3cca086dee44a969792a6912e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e66e1f61db56f09de73eb1127c714e8') in 0.009009 seconds 
+  Import took 0.016892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010459 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneSpringGizmoDrawer.cs
+  artifactKey: Guid(d06b2ca428196d84e808566c185f4dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneSpringGizmoDrawer.cs using Guid(d06b2ca428196d84e808566c185f4dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b2f86632a773242f82697c9ba61fbd') in 0.011103 seconds 
+  Import took 0.021002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340493 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Metallic.tga
+  artifactKey: Guid(6f9c8a4308473274e9bde8bd510de7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Metallic.tga using Guid(6f9c8a4308473274e9bde8bd510de7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406eedbe6536aa255b7c3e681eb9a2eb') in 0.086691 seconds 
+  Import took 0.098795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007588 seconds.
+  path: Assets/Enemies/Eggs/SmallEgg_Textures
+  artifactKey: Guid(f79767fed661ced40a675c4243295188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/SmallEgg_Textures using Guid(f79767fed661ced40a675c4243295188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1196c40adab9e53d43e66a67f4ac6caf') in 0.008973 seconds 
+  Import took 0.015891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013393 seconds.
+  path: Assets/Managers/Canvas/CanvasManager.cs
+  artifactKey: Guid(f4f075d5a8118fb4598c76c40530d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Canvas/CanvasManager.cs using Guid(f4f075d5a8118fb4598c76c40530d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4907d15f6392de682aae4e6d575d38') in 0.007925 seconds 
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008639 seconds.
+  path: Assets/Enemies/Steering/WallAvoidance.cs
+  artifactKey: Guid(248ffe43840a37241bb9d9111e5b5a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering/WallAvoidance.cs using Guid(248ffe43840a37241bb9d9111e5b5a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ecd20f1b5ff85a31725605d817f44f') in 0.008608 seconds 
+  Import took 0.016453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031823 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ColliderExtrusionConstraint.cs
+  artifactKey: Guid(19c0490c53fadd242bdc6be1078ecc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ColliderExtrusionConstraint.cs using Guid(19c0490c53fadd242bdc6be1078ecc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715cbcde97d2d65de0b6db89c4106020') in 0.007653 seconds 
+  Import took 0.018996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010988 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/ExNativeMultiHashMap.cs
+  artifactKey: Guid(a3c8faa013862ee4180c5c1ca4c52ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/ExNativeMultiHashMap.cs using Guid(a3c8faa013862ee4180c5c1ca4c52ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7416b775bac898a55e89e8b36689ee3a') in 0.008594 seconds 
+  Import took 0.016609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008506 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/WindController.cs
+  artifactKey: Guid(0f37d1563bcad5f4db89e6bac4cd26e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/WindController.cs using Guid(0f37d1563bcad5f4db89e6bac4cd26e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f191cea54b0b7adf7c0e2cb3d12c588') in 0.009208 seconds 
+  Import took 0.018729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013926 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/ExNativeHashMap.cs
+  artifactKey: Guid(1d1d2b6b96bdad845864683665ee8245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/ExNativeHashMap.cs using Guid(1d1d2b6b96bdad845864683665ee8245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871423be2537dfef5ed644de976616d8') in 0.011725 seconds 
+  Import took 0.018575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054670 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/StopWatch/StopWatch.cs
+  artifactKey: Guid(1f54531d1a4d7894881792ad1a77f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/StopWatch/StopWatch.cs using Guid(1f54531d1a4d7894881792ad1a77f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765870e4afdda97aa6af37b3ab4cb1a3') in 0.007784 seconds 
+  Import took 0.014758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010692 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerBoneData.cs
+  artifactKey: Guid(dc2f34a277f62a14aabb08f4599a779c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerBoneData.cs using Guid(dc2f34a277f62a14aabb08f4599a779c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61313eacbfd8cc828df1c63cbbc42a0') in 0.011550 seconds 
+  Import took 0.024091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014660 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/DressUpControl.cs
+  artifactKey: Guid(9475ea5cf4cf25f4a841ce757e1b7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/DressUpControl.cs using Guid(9475ea5cf4cf25f4a841ce757e1b7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3eab4f187640b58923664ea23238d1') in 0.008195 seconds 
+  Import took 0.015064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015308 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-collider.png
+  artifactKey: Guid(d11a81f1c9fad0c4896924a4fedc342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-collider.png using Guid(d11a81f1c9fad0c4896924a4fedc342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80927e1c0ce579f16af04d4f67bfe952') in 0.018235 seconds 
+  Import took 0.031004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066561 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/SpringMeshWorker.cs
+  artifactKey: Guid(805ad4223b034d645a2b2be45b2be477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/SpringMeshWorker.cs using Guid(805ad4223b034d645a2b2be45b2be477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1241e32d620d665ab69de5c8e046e8') in 0.008289 seconds 
+  Import took 0.016545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012075 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Data/IEditorCloth.cs
+  artifactKey: Guid(4d64582aa1d48e848bc9d346f9c07828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Data/IEditorCloth.cs using Guid(4d64582aa1d48e848bc9d346f9c07828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc36b26f28fd417bdd6688abc55358c') in 0.007216 seconds 
+  Import took 0.018126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008112 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneSpringInspector.cs
+  artifactKey: Guid(54aa6c74270c2e3469150a566d55ab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneSpringInspector.cs using Guid(54aa6c74270c2e3469150a566d55ab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc4b7e2aca3bcc0f4c08e7e14d4346a') in 0.007627 seconds 
+  Import took 0.015222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010960 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/EditUtility.cs
+  artifactKey: Guid(8f54013b79b40fc4d9b996eeb5f6588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/EditUtility.cs using Guid(8f54013b79b40fc4d9b996eeb5f6588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a434a42c9e735f00dd3f96bff0bd6585') in 0.008557 seconds 
+  Import took 0.018148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010187 seconds.
+  path: Assets/Enemies/Senses/Hearing.cs
+  artifactKey: Guid(f1d4a8f0e8a98af4db92207c399af300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Senses/Hearing.cs using Guid(f1d4a8f0e8a98af4db92207c399af300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e30caeba3ff7a84553f29df6a484038') in 0.008287 seconds 
+  Import took 0.016982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034510 seconds.
+  path: Assets/Items/Scripts/Ammunition/WeaponsList.cs
+  artifactKey: Guid(bc29d49e244efac409a93d73dfe0b44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Ammunition/WeaponsList.cs using Guid(bc29d49e244efac409a93d73dfe0b44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b770a5ba012c1c4306aba74eb891c2f') in 0.008010 seconds 
+  Import took 0.014572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027646 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/ClothParams.cs
+  artifactKey: Guid(1fa8b3dec275c3a449cdd8acada589f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/ClothParams.cs using Guid(1fa8b3dec275c3a449cdd8acada589f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446647708368409a115fcdfa38e94555') in 0.007744 seconds 
+  Import took 0.014763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009883 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Extensions/DataHashExtensions.cs
+  artifactKey: Guid(1996fd73624722c439355e5c42b73c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Extensions/DataHashExtensions.cs using Guid(1996fd73624722c439355e5c42b73c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23169304eb34c13842899abb2e2e9db') in 0.009410 seconds 
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012869 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/WindComponent/WindComponent.cs
+  artifactKey: Guid(01a8b5b2cd5cf55409b50b8671836ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/WindComponent/WindComponent.cs using Guid(01a8b5b2cd5cf55409b50b8671836ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfda672b6817a8d2d0536802902e0534') in 0.007580 seconds 
+  Import took 0.014149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068815 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshClothInspector.cs
+  artifactKey: Guid(b4ef5dbd13c1452409f7ddfd8c5bd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaMeshClothInspector.cs using Guid(b4ef5dbd13c1452409f7ddfd8c5bd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d27198455486fce67ad5d046d0d2c0d') in 0.014951 seconds 
+  Import took 0.032516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013536 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/CopyObject.cs
+  artifactKey: Guid(2af3f67c549021f48b8bce0b9f355bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/CopyObject.cs using Guid(2af3f67c549021f48b8bce0b9f355bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3732ae3155f21097af7b768f061c40bb') in 0.007928 seconds 
+  Import took 0.021050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011859 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampDistanceConstraint.cs
+  artifactKey: Guid(6f661f176ce18f447b4a49e0d8c8ac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampDistanceConstraint.cs using Guid(6f661f176ce18f447b4a49e0d8c8ac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b7026049d35ee30a0f6f2275a08cc') in 0.011490 seconds 
+  Import took 0.019893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035079 seconds.
+  path: Assets/MagicaCloth/Res/Icon/icon-wind.png
+  artifactKey: Guid(79e40a18c7eb1dd4daec80e6b97fc7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Res/Icon/icon-wind.png using Guid(79e40a18c7eb1dd4daec80e6b97fc7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536f3915f8abc8fc3e1f5072fd542902') in 0.016290 seconds 
+  Import took 0.024196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009847 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Physics/MagicaSphereColliderGizmoDrawer.cs
+  artifactKey: Guid(4637a86196999924e8b459996b0642ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Physics/MagicaSphereColliderGizmoDrawer.cs using Guid(4637a86196999924e8b459996b0642ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc47342fe4bed392ab3be13acc8279c') in 0.010401 seconds 
+  Import took 0.017955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007670 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Data/ReductionData.cs
+  artifactKey: Guid(c8cf921e09afaaa4585076d47df9e079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Data/ReductionData.cs using Guid(c8cf921e09afaaa4585076d47df9e079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0aec68a2923d8febdffe1e82011c9c0') in 0.008975 seconds 
+  Import took 0.016060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006975 seconds.
+  path: Assets/Player/IKControl.cs
+  artifactKey: Guid(68420f41fd6ad6c4b9c8cbca9f314d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/IKControl.cs using Guid(68420f41fd6ad6c4b9c8cbca9f314d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29912c0b0d39c84de586a83d82a9970f') in 0.007384 seconds 
+  Import took 0.014925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017819 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/ReferenceDataIndex/ReferenceDataBuilder.cs
+  artifactKey: Guid(36c3fd91d0a04594db875e9c344d613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/ReferenceDataIndex/ReferenceDataBuilder.cs using Guid(36c3fd91d0a04594db875e9c344d613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faabc1aa1b3ed95a9a0d21f35007a3bd') in 0.007737 seconds 
+  Import took 0.014452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007353 seconds.
+  path: Assets/Enemies/Queens Guard/Scripts/QueensGuard.cs
+  artifactKey: Guid(01b25696e9429d942954b29d219a4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Queens Guard/Scripts/QueensGuard.cs using Guid(01b25696e9429d942954b29d219a4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c8e5aa2d0c4a2788a269ebcc1470eb') in 0.007242 seconds 
+  Import took 0.014025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050457 seconds.
+  path: Assets/Items/Scripts/Ammunition/Bomb.cs
+  artifactKey: Guid(bfee28938874bcf47b39094a422aa3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Ammunition/Bomb.cs using Guid(bfee28938874bcf47b39094a422aa3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029ec9d9b3cc7b666de94073af96f4b0') in 0.007227 seconds 
+  Import took 0.013994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006564 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Avatar/MagicaAvatarInspector.cs
+  artifactKey: Guid(62a04d1f9b97eff4ea1a6129a28e77dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Avatar/MagicaAvatarInspector.cs using Guid(62a04d1f9b97eff4ea1a6129a28e77dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d37f108b04f63eb26f1fbb1e4d6052') in 0.007988 seconds 
+  Import took 0.015174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055606 seconds.
+  path: Assets/Enemies/Steering/SteeringBehaviour.cs
+  artifactKey: Guid(5396aeaec00644749be8f51fc2191953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering/SteeringBehaviour.cs using Guid(5396aeaec00644749be8f51fc2191953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a31f918b6c92cf902abe02d088feb3d') in 0.007043 seconds 
+  Import took 0.013570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007521 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/SliderStart.cs
+  artifactKey: Guid(df9c5ae1fd98f6b4cac4165677a8a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/SliderStart.cs using Guid(df9c5ae1fd98f6b4cac4165677a8a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57136fee0680b1e60728810ebf3cc5d9') in 0.009006 seconds 
+  Import took 0.016258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006955 seconds.
+  path: Assets/Managers/Audio/AudioManager.cs
+  artifactKey: Guid(853ca41bcb6d6664b851576a68127f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Audio/AudioManager.cs using Guid(853ca41bcb6d6664b851576a68127f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa480d8c8de124acc83121176929f0de') in 0.006723 seconds 
+  Import took 0.013378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009007 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/ClothGizmoDrawer.cs
+  artifactKey: Guid(9eae60ddde36d9c44885fb01ec455c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/ClothGizmoDrawer.cs using Guid(9eae60ddde36d9c44885fb01ec455c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f580135230cf142fb9707f618a12ee') in 0.006981 seconds 
+  Import took 0.013680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007123 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Deformer/MagicaRenderDeformer.cs
+  artifactKey: Guid(d5010470df402dc45aa7de5c6f32e216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Deformer/MagicaRenderDeformer.cs using Guid(d5010470df402dc45aa7de5c6f32e216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce405041530005065867db12a7daad3a') in 0.007388 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009157 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Deformer/MagicaVirtualDeformer.cs
+  artifactKey: Guid(0609b690a5036474cbf125e3911dad79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Deformer/MagicaVirtualDeformer.cs using Guid(0609b690a5036474cbf125e3911dad79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2347d091998549657ffde7b002013d7') in 0.009296 seconds 
+  Import took 0.016836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064292 seconds.
+  path: Assets/Managers/Level Generation/Editor/RoomGenEditor.cs
+  artifactKey: Guid(92cee9735dd1c3d499f14e9710f7b6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Level Generation/Editor/RoomGenEditor.cs using Guid(92cee9735dd1c3d499f14e9710f7b6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faab497870fbeb8d648669e5bc747dfd') in 0.007365 seconds 
+  Import took 0.014576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087286 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_AO.tga
+  artifactKey: Guid(da624eef06922db44a0868840bb2a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_AO.tga using Guid(da624eef06922db44a0868840bb2a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c94cefcce19be7fbd8bd7e0dcb0ae') in 0.044591 seconds 
+  Import took 0.053082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113532 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Albedo.tga
+  artifactKey: Guid(5155a2b74a89165418f8a231e07b9ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Albedo.tga using Guid(5155a2b74a89165418f8a231e07b9ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5b6f465360baa7df8bb4247ef7ff6d') in 0.025677 seconds 
+  Import took 0.032403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011535 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/ModelController.cs
+  artifactKey: Guid(60ed121a3c169f94292b8e886d9f4da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/ModelController.cs using Guid(60ed121a3c169f94292b8e886d9f4da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1666f018a009b6a544db11b0fa10e9ea') in 0.008089 seconds 
+  Import took 0.015508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048414 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Core/ReductionMesh.cs
+  artifactKey: Guid(d13035d70ebee3f4dac4d793de00a0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Core/ReductionMesh.cs using Guid(d13035d70ebee3f4dac4d793de00a0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a120405c56fb93cccad0a9f401a8ac42') in 0.009433 seconds 
+  Import took 0.016885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007174 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/PenetrationConstraint.cs
+  artifactKey: Guid(cd6d4b7a84b0e3e4ab2327985096a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/PenetrationConstraint.cs using Guid(cd6d4b7a84b0e3e4ab2327985096a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604351cbaafd1c15c5cbe604e13e0efe') in 0.006679 seconds 
+  Import took 0.013983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007152 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/ObjectUtility.cs
+  artifactKey: Guid(d87da4ad8730f4c4bb283d76c2e6c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/ObjectUtility.cs using Guid(d87da4ad8730f4c4bb283d76c2e6c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a86ff8907551f9cb5ba7e78c84c97a') in 0.008290 seconds 
+  Import took 0.014794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007153 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ColliderCollisionConstraint.cs
+  artifactKey: Guid(3bebd69f8f2e3e74a905a001652779f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ColliderCollisionConstraint.cs using Guid(3bebd69f8f2e3e74a905a001652779f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6114d30f1bf302942156a4a71423aec') in 0.007148 seconds 
+  Import took 0.014193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.166630 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Metallic.tga
+  artifactKey: Guid(40fb13c57838ca6419b1e51dfea6aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Metallic.tga using Guid(40fb13c57838ca6419b1e51dfea6aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ddf4dca561965a998479b332eee382') in 0.035221 seconds 
+  Import took 0.044374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008194 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/UIPartsItem.cs
+  artifactKey: Guid(5947a6f25912d084cbe6f7a509e61811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/UIPartsItem.cs using Guid(5947a6f25912d084cbe6f7a509e61811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076accb2a9bb0d315cff28619b565f01') in 0.007659 seconds 
+  Import took 0.014818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007103 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedTransformAccessArray.cs
+  artifactKey: Guid(c6d3fc0845dc9394e973967c90c6ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/FixedTransformAccessArray.cs using Guid(c6d3fc0845dc9394e973967c90c6ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33778fbb006fd58ebf11c494ac3b5dfb') in 0.007770 seconds 
+  Import took 0.014634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005754 seconds.
+  path: Assets/Enemies
+  artifactKey: Guid(a16fc92ab87833047816b8feb65ea32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies using Guid(a16fc92ab87833047816b8feb65ea32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a918253a94dbaf2f43d14d72a9c3e1ff') in 0.007211 seconds 
+  Import took 0.013987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006884 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/MagicaCapsuleCollider.cs
+  artifactKey: Guid(46ec582e8d6cb504fb1d0160568835a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/ParticleComponent/MagicaCapsuleCollider.cs using Guid(46ec582e8d6cb504fb1d0160568835a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ef80304d3f0f566c64cd3d59e5aed') in 0.009253 seconds 
+  Import took 0.016286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006798 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Data/IBoneReplace.cs
+  artifactKey: Guid(6d86ed1df029f96438e31b8a83837487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Data/IBoneReplace.cs using Guid(6d86ed1df029f96438e31b8a83837487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6056d46544e3705b33ec4dd0faa61b') in 0.007365 seconds 
+  Import took 0.014686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006745 seconds.
+  path: Assets/UI/Scripts/CraftingBench.cs
+  artifactKey: Guid(357c3b88485d310438a54f7ced5fceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/CraftingBench.cs using Guid(357c3b88485d310438a54f7ced5fceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84b67cf038b2536083b71692ee83af5') in 0.008054 seconds 
+  Import took 0.014721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006629 seconds.
+  path: Assets/Enemies/Steering/FollowPath.cs
+  artifactKey: Guid(4e350c94ded78d34fa4e3164e1978cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering/FollowPath.cs using Guid(4e350c94ded78d34fa4e3164e1978cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9ab7ac150a9304ab53581928750339') in 0.007323 seconds 
+  Import took 0.014409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008412 seconds.
+  path: Assets/Enemies/Steering/WallAvoidanceUnit.cs
+  artifactKey: Guid(94b2251bb7502a2478bc913c162b7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering/WallAvoidanceUnit.cs using Guid(94b2251bb7502a2478bc913c162b7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af105d6fc41aab0e4952eefe17eddb00') in 0.007783 seconds 
+  Import took 0.020737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010114 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/EdgeCollisionConstraint.cs
+  artifactKey: Guid(12f5410f9afd93a4789a6675225db6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/EdgeCollisionConstraint.cs using Guid(12f5410f9afd93a4789a6675225db6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef4927a1394c8fa57754f9bd530231d') in 0.008646 seconds 
+  Import took 0.020087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011811 seconds.
+  path: Assets/UI/Scripts/UIItem.cs
+  artifactKey: Guid(671d82924ed5606439869fe91f1c6c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/UIItem.cs using Guid(671d82924ed5606439869fe91f1c6c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ad6d7970c904a032a47c81c6feb97') in 0.008691 seconds 
+  Import took 0.016234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008444 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/ConstraintCommon/CurveParam.cs
+  artifactKey: Guid(214071556577e714c81dc78cc5341467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/ConstraintCommon/CurveParam.cs using Guid(214071556577e714c81dc78cc5341467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3191d5feab2e8cdf2a943be466502d0e') in 0.008899 seconds 
+  Import took 0.015427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006969 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/Other/Develop.cs
+  artifactKey: Guid(90f554ea4f6e87a43b60a391a99d316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/Other/Develop.cs using Guid(90f554ea4f6e87a43b60a391a99d316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecea8ee625dee41986a0dd1a81f39a5') in 0.008233 seconds 
+  Import took 0.015880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008947 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/ShareData/ShareDataObject.cs
+  artifactKey: Guid(c25009dbd41efea4bafdb4b1d6243d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/ShareData/ShareDataObject.cs using Guid(c25009dbd41efea4bafdb4b1d6243d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a505ce38a8c83f4ce5ac4713e5d540f4') in 0.007167 seconds 
+  Import took 0.013919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008101 seconds.
+  path: Assets/Items/Scripts/Collectible.cs
+  artifactKey: Guid(47cc85fcdd14ad7489cbb3b27ee8940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Collectible.cs using Guid(47cc85fcdd14ad7489cbb3b27ee8940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ce6c681ee4f1a9e5e09fea274c62d5') in 0.008549 seconds 
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008720 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampRotationConstraint.cs
+  artifactKey: Guid(501e9551a30c5bd419f449e32e10ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Constraint/ClampRotationConstraint.cs using Guid(501e9551a30c5bd419f449e32e10ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266d3da46e1a825dfe537e5dad49603c') in 0.007589 seconds 
+  Import took 0.015414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009486 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatarAccess.cs
+  artifactKey: Guid(bfff6718529cb154d87600cda09480a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Avatar/MagicaAvatarAccess.cs using Guid(bfff6718529cb154d87600cda09480a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c262af3c0b56d3a83a7d477e82ae223a') in 0.008277 seconds 
+  Import took 0.014963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007568 seconds.
+  path: Assets/Player/Scripts/PlayerController.cs
+  artifactKey: Guid(ef222da649e63b64bba5f484f46c27e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Scripts/PlayerController.cs using Guid(ef222da649e63b64bba5f484f46c27e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4111f2ef2f3b53f10a632793930faaab') in 0.008770 seconds 
+  Import took 0.019443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014769 seconds.
+  path: Assets/MagicaCloth/Scripts/ReductionMesh/Utility/Utility.cs
+  artifactKey: Guid(12e4af7eee12d8646951dd3e562788b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/ReductionMesh/Utility/Utility.cs using Guid(12e4af7eee12d8646951dd3e562788b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d36b28281ceac8ae9d2b337033cd31') in 0.008052 seconds 
+  Import took 0.016184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115562 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Emissive.tga
+  artifactKey: Guid(06f3f19ad49e77748ad7251f9b5d19aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Emissive.tga using Guid(06f3f19ad49e77748ad7251f9b5d19aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39b92f8cf8310b26cf1c7579d7e2984') in 0.045755 seconds 
+  Import took 0.053562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008320 seconds.
+  path: Assets/Enemies/Steering/MovementAIRigidbody.cs
+  artifactKey: Guid(2b5d4104b8d13af4fbc1c743d2eb8a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Steering/MovementAIRigidbody.cs using Guid(2b5d4104b8d13af4fbc1c743d2eb8a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a34e19d7a9ac505d7a627739ec6f15') in 0.007863 seconds 
+  Import took 0.014439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007060 seconds.
+  path: Assets/Player/Scripts/AnimationManager.cs
+  artifactKey: Guid(d20ba240a4b30944487858f042c7553a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Scripts/AnimationManager.cs using Guid(d20ba240a4b30944487858f042c7553a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfdf00d593ce50f480ab4b27a2c34dd') in 0.008702 seconds 
+  Import took 0.015619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056954 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerWindData.cs
+  artifactKey: Guid(57ca31b431ab55842ac467c5a3c91000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerWindData.cs using Guid(57ca31b431ab55842ac467c5a3c91000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb73ba688cc2e60c9a77a72f14e02e6') in 0.008812 seconds 
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016646 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Physics/MagicaCapsuleColliderGizmoDrawer.cs
+  artifactKey: Guid(d86fa0858357d3e4cb71b5ee8090a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Physics/MagicaCapsuleColliderGizmoDrawer.cs using Guid(d86fa0858357d3e4cb71b5ee8090a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b73a6fc3405c4d914630c66527d229') in 0.008340 seconds 
+  Import took 0.015342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007855 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Cloth/BaseCloth.cs
+  artifactKey: Guid(5c10a848fba17174aa9d095d20986f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Cloth/BaseCloth.cs using Guid(5c10a848fba17174aa9d095d20986f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f84038ad9fb9d12a47d87fc2bd36309') in 0.008158 seconds 
+  Import took 0.014798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006699 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Worker/TriangleWorker.cs
+  artifactKey: Guid(ce000f1efb7257f41a03c62d35236b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Worker/TriangleWorker.cs using Guid(ce000f1efb7257f41a03c62d35236b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f7fe1116bf3b2b887ebab9e3d74638') in 0.009282 seconds 
+  Import took 0.016778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007210 seconds.
+  path: Assets/UI/Scripts/MouseLock.cs
+  artifactKey: Guid(b6c9694dd6629d146bbd26bbcfa984bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/MouseLock.cs using Guid(b6c9694dd6629d146bbd26bbcfa984bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae468c9e2e7df703fba3635231044d48') in 0.007988 seconds 
+  Import took 0.014498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009062 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerMeshData.cs
+  artifactKey: Guid(fe86295177260fa44b8624e4c3e6a7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerMeshData.cs using Guid(fe86295177260fa44b8624e4c3e6a7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ce7b3d81783ef4abd51627e6a1ff2b') in 0.007893 seconds 
+  Import took 0.014357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007023 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Physics/MagicaPhysicsManagerInspector.cs
+  artifactKey: Guid(11af83489e629f5418649489e46c8fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Physics/MagicaPhysicsManagerInspector.cs using Guid(11af83489e629f5418649489e46c8fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4e319e9a8eca458badcb8603354770') in 0.007606 seconds 
+  Import took 0.014972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009359 seconds.
+  path: Assets/Items/Scripts/Inventory/Inventory.cs
+  artifactKey: Guid(7474324e335c0f34f90a2d21abe29e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Scripts/Inventory/Inventory.cs using Guid(7474324e335c0f34f90a2d21abe29e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c27797987c6cc7b05d5f43be7964b2') in 0.006995 seconds 
+  Import took 0.013413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007048 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaVirtualDeformerInspector.cs
+  artifactKey: Guid(86163bbd9df421e48ac19e35583d668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Deformer/MagicaVirtualDeformerInspector.cs using Guid(86163bbd9df421e48ac19e35583d668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965fd556a9ec58da33e95fae7673f074') in 0.007849 seconds 
+  Import took 0.015749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007840 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Test/SimpleInputManager.cs
+  artifactKey: Guid(3ac57481f8227274482f9cf229190646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Test/SimpleInputManager.cs using Guid(3ac57481f8227274482f9cf229190646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1264c40eec74b2d6f3a235779d1eeb26') in 0.008206 seconds 
+  Import took 0.015675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055904 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Team/PhysicsTeam.cs
+  artifactKey: Guid(17d729828f3a0394e970cf9d37589110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Team/PhysicsTeam.cs using Guid(17d729828f3a0394e970cf9d37589110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3828d16cef4e5db0e84686f5f260e065') in 0.009639 seconds 
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006944 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerConstraint.cs
+  artifactKey: Guid(67ea9f2e9eb67344980274101cd2297c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerConstraint.cs using Guid(67ea9f2e9eb67344980274101cd2297c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806f22920e46e449fc9e871902c0425') in 0.007920 seconds 
+  Import took 0.016942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007391 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/API/Events/Events.cs
+  artifactKey: Guid(ed55cf10ce36d7242b36cf0f98e2f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/API/Events/Events.cs using Guid(ed55cf10ce36d7242b36cf0f98e2f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a008440fb6e6cd749039afc9b71082') in 0.007191 seconds 
+  Import took 0.014839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114137 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Emissive.tga
+  artifactKey: Guid(8f35f226b5182c94c99780171df6a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_textures/New_Infestari_Grunt_low_defaultMat_Emissive.tga using Guid(8f35f226b5182c94c99780171df6a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95afd3d54a4e038927fb8a070f5d3c4') in 0.023439 seconds 
+  Import took 0.030523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008283 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Utility/ShareDataPrefabExtension.cs
+  artifactKey: Guid(c6633b5060979774b990ee980081d2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Utility/ShareDataPrefabExtension.cs using Guid(c6633b5060979774b990ee980081d2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b9ee36a47355900302a7d3ec85d769') in 0.007244 seconds 
+  Import took 0.013555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007323 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/EditorExtension/ClothMonitorUI.cs
+  artifactKey: Guid(cc1cb5e9ba7d68446ace1743d20f66af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/EditorExtension/ClothMonitorUI.cs using Guid(cc1cb5e9ba7d68446ace1743d20f66af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c6a9d6aaaf152e1cd38073bacaf841') in 0.008277 seconds 
+  Import took 0.015806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006253 seconds.
+  path: Assets/Managers/Level Generation/LevelGeneratorEditor.cs
+  artifactKey: Guid(8f3ca01bb511ff7429cd281be71dc327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Managers/Level Generation/LevelGeneratorEditor.cs using Guid(8f3ca01bb511ff7429cd281be71dc327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76339f51cf657dd3b75a13462cc6ea0') in 0.007975 seconds 
+  Import took 0.015885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007330 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Team/PhysicsTeamData.cs
+  artifactKey: Guid(694a1cbfe03ebd34a83ebd4c4a9f8d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Team/PhysicsTeamData.cs using Guid(694a1cbfe03ebd34a83ebd4c4a9f8d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd040c703d2983426db4d8df9da78a809') in 0.007343 seconds 
+  Import took 0.013870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007991 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerTeamData.cs
+  artifactKey: Guid(467414df1e626c746b213c75a15c07db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Physics/Manager/PhysicsManagerTeamData.cs using Guid(467414df1e626c746b213c75a15c07db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdca5072510c9478fae16786b8df58f') in 0.007193 seconds 
+  Import took 0.013543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009913 seconds.
+  path: Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneClothInspector.cs
+  artifactKey: Guid(ba56c7514e094ea4999d77a600b82358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Editor/Cloth/MagicaBoneClothInspector.cs using Guid(ba56c7514e094ea4999d77a600b82358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50911ab34bb333018efb7b9bf64e8de') in 0.007384 seconds 
+  Import took 0.013951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054972 seconds.
+  path: Assets/Enemies/Eggs/BustedEgg_Textures
+  artifactKey: Guid(b319a2113e1d9f14a8db9085d61c291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Eggs/BustedEgg_Textures using Guid(b319a2113e1d9f14a8db9085d61c291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf61073ecfc2d204631a326907b4955') in 0.006891 seconds 
+  Import took 0.015441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007672 seconds.
+  path: Assets/Allegorithmic/Plugins/Substance.Platform/NativeFunctions.cs
+  artifactKey: Guid(f73e545cdd1f46142b3224490c49ffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allegorithmic/Plugins/Substance.Platform/NativeFunctions.cs using Guid(f73e545cdd1f46142b3224490c49ffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaa2b589b985cff4a5c50241f5b9250') in 0.009693 seconds 
+  Import took 0.016697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153747 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Albedo.tga
+  artifactKey: Guid(d24e55642753d484a9e72b4919cef244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/OLD_Grunt_Textures/Infestari_Grunt_low_defaultMat_Albedo.tga using Guid(d24e55642753d484a9e72b4919cef244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4fcd7a571c5ffeb16069ea7df10c86') in 0.050539 seconds 
+  Import took 0.064780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009850 seconds.
+  path: Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/NativeArrayExtension.cs
+  artifactKey: Guid(d9e816117469f484d9b643b0a143e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth/Scripts/Core/Utility/NativeCollection/NativeArrayExtension.cs using Guid(d9e816117469f484d9b643b0a143e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0e38fa92024f36d598057e13f5d98a') in 0.007011 seconds 
+  Import took 0.013799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1069.684721 seconds.
+  path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low_pivot.fbx
+  artifactKey: Guid(e00c4b1bfbbe47a43bd21fb8d2caa7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low_pivot.fbx using Guid(e00c4b1bfbbe47a43bd21fb8d2caa7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1838049e740d82c87c3dcd11c59d2108') in 0.050475 seconds 
+  Import took 0.058328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.474436 seconds.
   path: Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low.fbx
   artifactKey: Guid(01a90884a606ed94bb522aa686d33d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low.fbx using Guid(01a90884a606ed94bb522aa686d33d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfe87de2e6ce4145ce9de4663d71f28') in 0.082229 seconds 
-  Import took 0.090041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 275.838921 seconds.
-  path: Assets/Enemies/Buster/Buster_Unity_low.fbx
-  artifactKey: Guid(38072800d0eb15043bb587d70a59c57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Buster/Buster_Unity_low.fbx using Guid(38072800d0eb15043bb587d70a59c57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d49351d0cdfd035b0026a7cb991de5c') in 0.069461 seconds 
-  Import took 0.078562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 287.756559 seconds.
-  path: Assets/Juno/Juno
-  artifactKey: Guid(1483b3c3e2c20bc4e9f11d23a96f8762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno using Guid(1483b3c3e2c20bc4e9f11d23a96f8762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1795a52c39fb2952cbc9707c5af186') in 0.007623 seconds 
-  Import took 0.015790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.166347 seconds.
-  path: Assets/Juno/Juno/Juno_albedo.tga
-  artifactKey: Guid(6f1f3e56f25ee814bba60a31b695b1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno/Juno_albedo.tga using Guid(6f1f3e56f25ee814bba60a31b695b1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed03a479d1f0f313a2f6a2785ac9862') in 0.053553 seconds 
-  Import took 0.062497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Juno/Juno/Juno_RM.tga
-  artifactKey: Guid(442a19eb2cf23994594c30b617147708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno/Juno_RM.tga using Guid(442a19eb2cf23994594c30b617147708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e18ba1f1a0b15162ec20ffafba7e18') in 0.038513 seconds 
-  Import took 0.048221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Juno/Juno/Juno_AO.tga
-  artifactKey: Guid(832a263e0808af743bc37bc31a78005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno/Juno_AO.tga using Guid(832a263e0808af743bc37bc31a78005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e646beafb6661dac2190b44c51fd55d') in 0.031836 seconds 
-  Import took 0.039411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Juno/Juno/Juno_emissive.tga
-  artifactKey: Guid(29f81cc60643c7846be4248d0cf2a347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno/Juno_emissive.tga using Guid(29f81cc60643c7846be4248d0cf2a347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a75d4e9ac740de2e124f8b2dc8855c3') in 0.029563 seconds 
-  Import took 0.037463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Juno/Juno/Juno_normal.tga
-  artifactKey: Guid(26c8eaefc813b5e47a2903cd95790bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno/Juno_normal.tga using Guid(26c8eaefc813b5e47a2903cd95790bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c7c29af5e5160b8d597c1be975df4e') in 0.040799 seconds 
-  Import took 0.049002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Juno/Juno/Juno_Rigged.fbx
-  artifactKey: Guid(54fe817a19f326443a70b194a9a7db3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Juno/Juno/Juno_Rigged.fbx using Guid(54fe817a19f326443a70b194a9a7db3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768bd02c80047734fcc78415b6899d52') in 0.354666 seconds 
-  Import took 0.365579 seconds .
+Start importing Assets/Enemies/Grunt/Grunt_Mesh/Grunt_Unity_low.fbx using Guid(01a90884a606ed94bb522aa686d33d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704b6f3f6813746d5eb33b35fa927ee9') in 0.041203 seconds 
+  Import took 0.050302 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
